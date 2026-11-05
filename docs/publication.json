@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "repository": "https://github.com/NicolasBellina/reserve-flutter",
+  "visibility": "PUBLIC",
+  "default_branch": "main",
+  "release": "https://github.com/NicolasBellina/reserve-flutter/releases/tag/v1.0.0",
+  "release_is_draft": false,
+  "release_source_commit": "8b9dfaf880182c1a9d4359e8d35f1d76653d2781",
+  "apk_url": "https://github.com/NicolasBellina/reserve-flutter/releases/download/v1.0.0/reserve-1.0.0.apk",
+  "anonymous_http_head_status": 200,
+  "apk_bytes": 57958434,
+  "local_apk_sha256": "e881c9630f3427b38364537ab1359d7ffe8399d7ed1a134933f47cf241d88c74",
+  "github_asset_sha256": "e881c9630f3427b38364537ab1359d7ffe8399d7ed1a134933f47cf241d88c74",
+  "published_readme_git_blob": "337b2303509e5bd7e594ced39907759828f7f060",
+  "verification_method": "Métadonnées GitHub (visibilité, release et empreinte du fichier), HTTP HEAD anonyme et comparaison du blob README."
+}

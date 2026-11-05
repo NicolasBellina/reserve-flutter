@@ -54,3 +54,7 @@ Le [compte rendu Android](android/RECETTE_EXECUTEE.md) donne les valeurs observ�
 ## Intégrité et confidentialité
 
 L'empreinte du fichier final est dans [SHA256SUMS](../livraison/SHA256SUMS). La clé privée, les paramètres de signature, les bases, le build et les caches sont exclus du dépôt Git. Le certificat public de signature est documenté ; aucun mot de passe n'apparaît dans les preuves.
+
+## Publication du rendu
+
+Le dépôt est public sur [GitHub](https://github.com/NicolasBellina/reserve-flutter). La [release v1.0.0](https://github.com/NicolasBellina/reserve-flutter/releases/tag/v1.0.0) contient l’APK, SHA256SUMS et la notice Windows. L’empreinte fournie par GitHub correspond à celle de l’APK local et installé ; l’URL directe répond HTTP 200 sans authentification. Le README distant est identique au README local. Voir [publication.json](publication.json) pour les valeurs contrôlées.
