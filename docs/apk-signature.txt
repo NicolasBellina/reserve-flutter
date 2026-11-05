@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Nicolas Bellina, OU=Projet final Flutter, O=Reserve, C=FR
+Signer #1 certificate SHA-256 digest: 126657cabf30b83a684e0cdd10b31cae5882167243fb4db58ece8a96ef1a19b7
+Signer #1 certificate SHA-1 digest: 5fad29e06ce0e3ebe465a90c2a292f55c7351593
+Signer #1 certificate MD5 digest: 399c986f931660a37cdff9d245ae38af
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: e0ac3bf3be5d4e83fe63385c3829e341abe01d2b031abb315023fa5e1d774b8e
+Signer #1 public key SHA-1 digest: 0969f5eb3d9920a8e607b68b7da7748b9bd2e78b
+Signer #1 public key MD5 digest: ab9e72c156fde83d8878261830640769

@@ -1,0 +1,10 @@
+lib/arm64-v8a/libapp.so: PT_LOAD align=[65536, 65536, 65536], 16 Ko=True
+lib/arm64-v8a/libflutter.so: PT_LOAD align=[65536, 65536, 65536], 16 Ko=True
+lib/arm64-v8a/libsqlite3.so: PT_LOAD align=[16384, 16384, 16384], 16 Ko=True
+lib/armeabi-v7a/libapp.so: PT_LOAD align=[16384, 16384, 16384], 16 Ko=True
+lib/armeabi-v7a/libflutter.so: PT_LOAD align=[65536, 65536, 65536], 16 Ko=True
+lib/armeabi-v7a/libsqlite3.so: PT_LOAD align=[16384, 16384, 16384], 16 Ko=True
+lib/x86_64/libapp.so: PT_LOAD align=[65536, 65536, 65536], 16 Ko=True
+lib/x86_64/libflutter.so: PT_LOAD align=[65536, 65536, 65536], 16 Ko=True
+lib/x86_64/libsqlite3.so: PT_LOAD align=[16384, 16384, 16384], 16 Ko=True
+ZIP : Verification successful

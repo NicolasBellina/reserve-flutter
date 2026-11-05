@@ -1,0 +1,29 @@
+00:00 +0: loading /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/backup_codec_test.dart
+00:00 +0: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/food_lot_test.dart: sérialisation conserve identité, quantité et dates
+00:00 +1: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/backup_codec_test.dart: export puis import JSON sans perte, y compris accents
+00:00 +2: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: loading, empty et erreur récupérable
+00:00 +3: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: loading, empty et erreur récupérable
+00:00 +4: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: loading, empty et erreur récupérable
+00:00 +5: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: loading, empty et erreur récupérable
+00:00 +6: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: loading, empty et erreur récupérable
+Lecture SQLite : StateError
+00:00 +7: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/backup_codec_test.dart: limite de taille vérifiée avant analyse
+00:00 +8: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: recherche sans accents combinée au filtre, bilan global
+00:00 +9: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: échec écriture et suppression conservent la mémoire
+Écriture SQLite : StateError
+Écriture SQLite : StateError
+00:00 +10: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: fusion idempotente privilégie modification récente
+00:00 +11: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/pantry_controller_test.dart: import invalide ne déclenche aucune écriture
+00:00 +12: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/sqlite_repository_test.dart: CRUD SQLite persiste après fermeture et réouverture
+00:00 +13: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/sqlite_repository_test.dart: CRUD SQLite persiste après fermeture et réouverture
+00:00 +14: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: formulaire validé, création, modification et suppression confirmée
+00:00 +15: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: formulaire validé, création, modification et suppression confirmée
+00:00 +16: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: formulaire validé, création, modification et suppression confirmée
+00:01 +17: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: échec écriture conserve le formulaire et permet une nouvelle tentative
+Écriture SQLite : StateError
+00:01 +18: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: erreur de lecture visible puis réessayer
+Lecture SQLite : StateError
+00:01 +19: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: chargement réellement visible
+00:01 +20: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: JSON invalide refusé sans changement
+00:01 +21: /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/test/widget_test.dart: petit écran et texte agrandi restent défilants
+00:02 +22: All tests passed!
