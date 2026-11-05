@@ -1,0 +1,1476 @@
+
+2026-11-05T14:03:15.196721+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:03","content-desc":"3:03 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2064]","center":"[540,1173]","children":[{"class":"android.view.View","content-desc":"Moins oublier.\nMieux cuisiner.","interactions":["FOCUSABLE"],"bounds":"[53,315][1028,504]","center":"[540,409]"},{"class":"android.view.View","content-desc":"0 lot(s) en stock • Vos aliments, au même endroit.","interactions":["FOCUSABLE"],"bounds":"[53,535][1028,588]","center":"[540,561]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,698][1028,845]","center":"[540,771]"},{"class":"android.widget.HorizontalScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[53,882][1028,1008]","center":"[540,945]","children":[{"class":"android.widget.Button","content-desc":"En stock","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[53,882][337,1008]","center":"[195,945]"},{"class":"android.widget.Button","content-desc":"Sous 3 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[358,882][654,1008]","center":"[506,945]"},{"class":"android.widget.Button","content-desc":"Date dépassée","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[675,882][1011,1008]","center":"[843,945]"}]},{"class":"android.view.View","content-desc":"Votre réserve commence ici\nAjoutez un premier aliment avec sa quantité, son lieu et sa date.","interactions":["FOCUSABLE"],"bounds":"[53,1060][1028,1863]","center":"[540,1461]","children":[{"class":"android.widget.Button","content-desc":"Ajouter mon premier aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[238,1632][842,1758]","center":"[540,1695]"}]}]},{"class":"android.widget.Button","content-desc":"Ajouter un aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[553,1875][1038,2022]","center":"[795,1948]"},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:03:27.951377+00:00 ["capture", "01-premier-lancement.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/01-premier-lancement.png
+
+exit=0
+
+2026-11-05T14:03:29.149922+00:00 ["tap", "desc=/^Ajouter mon premier aliment$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Ajouter mon premier aliment",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[238,1632][842,1758]",
+    "center": "[540,1695]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:03:31.019621+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:03","content-desc":"3:03 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Ajouter un aliment","interactions":["FOCUSABLE"],"bounds":"[189,173][658,246]","center":"[423,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Un lot, une date, un endroit.","interactions":["FOCUSABLE"],"bounds":"[53,336][1028,420]","center":"[540,378]"},{"class":"android.view.View","content-desc":"Séparez les lots si leurs dates sont différentes. Les champs marqués * sont obligatoires.","interactions":["FOCUSABLE"],"bounds":"[53,441][1028,546]","center":"[540,493]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,609][1028,808]","center":"[540,708]","children":[{"class":"android.view.View","content-desc":"80 caractères restants","interactions":["FOCUSABLE"],"bounds":"[915,766][986,808]","center":"[950,787]"}]},{"class":"android.widget.EditText","text":"1","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,840][1028,987]","center":"[540,913]"},{"class":"android.widget.Button","content-desc":"Unité\npièce(s)","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1034][1028,1181]","center":"[540,1107]"},{"class":"android.widget.Button","content-desc":"Emplacement\nRéfrigérateur","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1228][1028,1375]","center":"[540,1301]"},{"class":"android.widget.Button","content-desc":"Choisir la date *","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1422][1028,1554]","center":"[540,1488]"},{"class":"android.view.View","content-desc":"Cette date est un repère de rangement. Vérifiez les indications et les conditions de conservation de l’emballage.","interactions":["FOCUSABLE"],"bounds":"[53,1575][1028,1732]","center":"[540,1653]"},{"class":"android.widget.Button","content-desc":"Statut\nEn stock","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1779][1028,1926]","center":"[540,1852]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,1974][1028,2274]","center":"[540,2124]","children":[{"class":"android.view.View","content-desc":"1 000 caractères restants","interactions":["FOCUSABLE"],"bounds":"[878,2257][985,2274]","center":"[931,2265]"}]}]}]}]}]
+
+exit=0
+
+2026-11-05T14:03:45.648813+00:00 ["scroll", "class=/^android.widget.ScrollView$/", "--dir", "down", "--until", "desc=/^Enregistrer$/"]
+Scrolled container:
+[
+  {
+    "class": "android.widget.ScrollView",
+    "interactions": [
+      "SCROLLABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[0,283][1080,2274]",
+    "center": "[540,1278]"
+  }
+]
+to target element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,2027][1028,2159]",
+    "center": "[540,2093]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:03:46.924462+00:00 ["tap", "desc=/^Enregistrer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,2027][1028,2159]",
+    "center": "[540,2093]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:03:48.788602+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:03","content-desc":"3:03 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Ajouter un aliment","interactions":["FOCUSABLE"],"bounds":"[189,173][658,246]","center":"[423,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,316][1028,515]","center":"[540,415]","children":[{"class":"android.view.View","content-desc":"Saisissez le nom de l’aliment.","interactions":["FOCUSABLE"],"bounds":"[95,473][537,515]","center":"[316,494]"},{"class":"android.view.View","content-desc":"80 caractères restants","interactions":["FOCUSABLE"],"bounds":"[915,473][986,515]","center":"[950,494]"}]},{"class":"android.widget.EditText","text":"1","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,547][1028,694]","center":"[540,620]"},{"class":"android.widget.Button","content-desc":"Unité\npièce(s)","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,741][1028,888]","center":"[540,814]"},{"class":"android.widget.Button","content-desc":"Emplacement\nRéfrigérateur","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,935][1028,1082]","center":"[540,1008]"},{"class":"android.widget.Button","content-desc":"Choisir la date *","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1130][1028,1261]","center":"[540,1195]"},{"class":"android.view.View","content-desc":"Choisissez la date indiquée sur l’emballage.","interactions":["FOCUSABLE"],"bounds":"[53,1261][1028,1329]","center":"[540,1295]"},{"class":"android.view.View","content-desc":"Cette date est un repère de rangement. Vérifiez les indications et les conditions de conservation de l’emballage.","interactions":["FOCUSABLE"],"bounds":"[53,1350][1028,1508]","center":"[540,1429]"},{"class":"android.widget.Button","content-desc":"Statut\nEn stock","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1555][1028,1702]","center":"[540,1628]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,1749][1028,2075]","center":"[540,1912]","children":[{"class":"android.view.View","content-desc":"1 000 caractères restants","interactions":["FOCUSABLE"],"bounds":"[878,2033][985,2075]","center":"[931,2054]"}]},{"class":"android.widget.Button","content-desc":"Enregistrer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,2096][1028,2227]","center":"[540,2161]"}]}]}]}]
+
+exit=0
+
+2026-11-05T14:04:09.906322+00:00 ["text", "Yaourts nature", "class=/^android.widget.EditText$/", "--match", "first"]
+Entered text into element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "Yaourts nature",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "state": [
+      "FOCUSED"
+    ],
+    "bounds": "[53,316][1028,515]",
+    "center": "[540,415]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:04:11.129133+00:00 ["text", "4", "class=/^android.widget.EditText$/,text=/^1$/"]
+Entered text into element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "4",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "bounds": "[53,547][1028,694]",
+    "center": "[540,620]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:04:11.936430+00:00 ["key", "back"]
+Pressed key: back
+
+exit=0
+
+2026-11-05T14:04:13.468206+00:00 ["tap", "desc=/^Choisir la date \\*$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Choisir la date *",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,1130][1028,1261]",
+    "center": "[540,1195]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:04:15.428695+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:04","content-desc":"3:04 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Date indiquée sur l’emballage\njeu. 5 nov.","interactions":["FOCUSABLE"],"bounds":"[68,460][1013,775]","center":"[540,617]","children":[{"class":"android.widget.Button","content-desc":"Passer à la saisie","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,617][981,743]","center":"[918,680]"}]},{"class":"android.widget.Button","content-desc":"Sélectionner une année\nnovembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[110,775][719,911]","center":"[414,843]"},{"class":"android.view.View","content-desc":"jeudi 5 novembre 2026, Aujourd\u0027hui","bounds":"[68,775][1013,1793]","center":"[540,1284]","children":[{"class":"android.widget.Button","content-desc":"Mois précédent","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[750,780][876,906]","center":"[813,843]"},{"class":"android.widget.Button","content-desc":"Mois suivant","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[876,780][1002,906]","center":"[939,843]"},{"class":"android.view.View","interactions":["FOCUSABLE"],"bounds":"[68,911][1013,1793]","center":"[540,1352]","children":[{"class":"android.view.View","interactions":["SCROLLABLE"],"bounds":"[68,911][1013,1793]","center":"[540,1352]","children":[{"class":"android.widget.Button","content-desc":"1, dimanche 1 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1037][981,1163]","center":"[918,1100]"},{"class":"android.widget.Button","content-desc":"2, lundi 2 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1163][225,1289]","center":"[162,1226]"},{"class":"android.widget.Button","content-desc":"3, mardi 3 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1163][351,1289]","center":"[288,1226]"},{"class":"android.widget.Button","content-desc":"4, mercredi 4 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1163][477,1289]","center":"[414,1226]"},{"class":"android.widget.Button","content-desc":"5, jeudi 5 novembre 2026, Aujourd\u0027hui","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[477,1163][603,1289]","center":"[540,1226]"},{"class":"android.widget.Button","content-desc":"6, vendredi 6 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1163][729,1289]","center":"[666,1226]"},{"class":"android.widget.Button","content-desc":"7, samedi 7 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[729,1163][855,1289]","center":"[792,1226]"},{"class":"android.widget.Button","content-desc":"8, dimanche 8 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1163][981,1289]","center":"[918,1226]"},{"class":"android.widget.Button","content-desc":"9, lundi 9 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1289][225,1415]","center":"[162,1352]"},{"class":"android.widget.Button","content-desc":"10, mardi 10 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1289][351,1415]","center":"[288,1352]"},{"class":"android.widget.Button","content-desc":"11, mercredi 11 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1289][477,1415]","center":"[414,1352]"},{"class":"android.widget.Button","content-desc":"12, jeudi 12 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[477,1289][603,1415]","center":"[540,1352]"},{"class":"android.widget.Button","content-desc":"13, vendredi 13 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1289][729,1415]","center":"[666,1352]"},{"class":"android.widget.Button","content-desc":"14, samedi 14 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[729,1289][855,1415]","center":"[792,1352]"},{"class":"android.widget.Button","content-desc":"15, dimanche 15 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1289][981,1415]","center":"[918,1352]"},{"class":"android.widget.Button","content-desc":"16, lundi 16 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1415][225,1541]","center":"[162,1478]"},{"class":"android.widget.Button","content-desc":"17, mardi 17 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1415][351,1541]","center":"[288,1478]"},{"class":"android.widget.Button","content-desc":"18, mercredi 18 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1415][477,1541]","center":"[414,1478]"},{"class":"android.widget.Button","content-desc":"19, jeudi 19 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[477,1415][603,1541]","center":"[540,1478]"},{"class":"android.widget.Button","content-desc":"20, vendredi 20 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1415][729,1541]","center":"[666,1478]"},{"class":"android.widget.Button","content-desc":"21, samedi 21 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[729,1415][855,1541]","center":"[792,1478]"},{"class":"android.widget.Button","content-desc":"22, dimanche 22 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1415][981,1541]","center":"[918,1478]"},{"class":"android.widget.Button","content-desc":"23, lundi 23 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1541][225,1667]","center":"[162,1604]"},{"class":"android.widget.Button","content-desc":"24, mardi 24 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1541][351,1667]","center":"[288,1604]"},{"class":"android.widget.Button","content-desc":"25, mercredi 25 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1541][477,1667]","center":"[414,1604]"},{"class":"android.widget.Button","content-desc":"26, jeudi 26 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[477,1541][603,1667]","center":"[540,1604]"},{"class":"android.widget.Button","content-desc":"27, vendredi 27 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1541][729,1667]","center":"[666,1604]"},{"class":"android.widget.Button","content-desc":"28, samedi 28 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[729,1541][855,1667]","center":"[792,1604]"},{"class":"android.widget.Button","content-desc":"29, dimanche 29 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1541][981,1667]","center":"[918,1604]"},{"class":"android.widget.Button","content-desc":"30, lundi 30 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1667][225,1793]","center":"[162,1730]"}]}]}]},{"class":"android.widget.Button","content-desc":"Annuler","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[610,1819][803,1945]","center":"[706,1882]"},{"class":"android.widget.Button","content-desc":"OK","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[824,1819][992,1945]","center":"[908,1882]"},{"class":"android.view.View","content-desc":"Ignorer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]"}]}]}]
+
+exit=0
+
+2026-11-05T14:04:27.846547+00:00 ["tap", "desc=/^7, samedi 7 novembre 2026$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "7, samedi 7 novembre 2026",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[729,1163][855,1289]",
+    "center": "[792,1226]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:04:28.805615+00:00 ["tap", "desc=/^OK$/"]
+No matching elements
+
+exit=1
+
+2026-11-05T14:04:29.694531+00:00 ["scroll", "class=/^android.widget.ScrollView$/", "--dir", "down", "--until", "desc=/^Enregistrer$/"]
+No matching elements
+
+exit=1
+
+2026-11-05T14:04:30.573631+00:00 ["tap", "desc=/^Enregistrer$/"]
+No matching elements
+
+exit=1
+
+2026-11-05T14:04:31.355081+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:04","content-desc":"3:04 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Date indiquée sur l’emballage\nsam. 7 nov.","interactions":["FOCUSABLE"],"bounds":"[68,460][1013,775]","center":"[540,617]","children":[{"class":"android.widget.Button","content-desc":"Passer à la saisie","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,617][981,743]","center":"[918,680]"}]},{"class":"android.widget.Button","content-desc":"Sélectionner une année\nnovembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[110,775][719,911]","center":"[414,843]"},{"class":"android.view.View","content-desc":"jeudi 5 novembre 2026, Aujourd\u0027hui","bounds":"[68,775][1013,1793]","center":"[540,1284]","children":[{"class":"android.widget.Button","content-desc":"Mois précédent","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[750,780][876,906]","center":"[813,843]"},{"class":"android.widget.Button","content-desc":"Mois suivant","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[876,780][1002,906]","center":"[939,843]"},{"class":"android.view.View","interactions":["FOCUSABLE"],"bounds":"[68,911][1013,1793]","center":"[540,1352]","children":[{"class":"android.view.View","interactions":["SCROLLABLE"],"bounds":"[68,911][1013,1793]","center":"[540,1352]","children":[{"class":"android.widget.Button","content-desc":"1, dimanche 1 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1037][981,1163]","center":"[918,1100]"},{"class":"android.widget.Button","content-desc":"2, lundi 2 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1163][225,1289]","center":"[162,1226]"},{"class":"android.widget.Button","content-desc":"3, mardi 3 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1163][351,1289]","center":"[288,1226]"},{"class":"android.widget.Button","content-desc":"4, mercredi 4 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1163][477,1289]","center":"[414,1226]"},{"class":"android.widget.Button","content-desc":"5, jeudi 5 novembre 2026, Aujourd\u0027hui","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[477,1163][603,1289]","center":"[540,1226]"},{"class":"android.widget.Button","content-desc":"6, vendredi 6 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1163][729,1289]","center":"[666,1226]"},{"class":"android.widget.Button","content-desc":"7, samedi 7 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[729,1163][855,1289]","center":"[792,1226]"},{"class":"android.widget.Button","content-desc":"8, dimanche 8 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1163][981,1289]","center":"[918,1226]"},{"class":"android.widget.Button","content-desc":"9, lundi 9 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1289][225,1415]","center":"[162,1352]"},{"class":"android.widget.Button","content-desc":"10, mardi 10 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1289][351,1415]","center":"[288,1352]"},{"class":"android.widget.Button","content-desc":"11, mercredi 11 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1289][477,1415]","center":"[414,1352]"},{"class":"android.widget.Button","content-desc":"12, jeudi 12 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[477,1289][603,1415]","center":"[540,1352]"},{"class":"android.widget.Button","content-desc":"13, vendredi 13 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1289][729,1415]","center":"[666,1352]"},{"class":"android.widget.Button","content-desc":"14, samedi 14 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[729,1289][855,1415]","center":"[792,1352]"},{"class":"android.widget.Button","content-desc":"15, dimanche 15 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1289][981,1415]","center":"[918,1352]"},{"class":"android.widget.Button","content-desc":"16, lundi 16 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1415][225,1541]","center":"[162,1478]"},{"class":"android.widget.Button","content-desc":"17, mardi 17 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1415][351,1541]","center":"[288,1478]"},{"class":"android.widget.Button","content-desc":"18, mercredi 18 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1415][477,1541]","center":"[414,1478]"},{"class":"android.widget.Button","content-desc":"19, jeudi 19 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[477,1415][603,1541]","center":"[540,1478]"},{"class":"android.widget.Button","content-desc":"20, vendredi 20 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1415][729,1541]","center":"[666,1478]"},{"class":"android.widget.Button","content-desc":"21, samedi 21 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[729,1415][855,1541]","center":"[792,1478]"},{"class":"android.widget.Button","content-desc":"22, dimanche 22 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1415][981,1541]","center":"[918,1478]"},{"class":"android.widget.Button","content-desc":"23, lundi 23 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1541][225,1667]","center":"[162,1604]"},{"class":"android.widget.Button","content-desc":"24, mardi 24 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[225,1541][351,1667]","center":"[288,1604]"},{"class":"android.widget.Button","content-desc":"25, mercredi 25 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[351,1541][477,1667]","center":"[414,1604]"},{"class":"android.widget.Button","content-desc":"26, jeudi 26 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[477,1541][603,1667]","center":"[540,1604]"},{"class":"android.widget.Button","content-desc":"27, vendredi 27 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[603,1541][729,1667]","center":"[666,1604]"},{"class":"android.widget.Button","content-desc":"28, samedi 28 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[729,1541][855,1667]","center":"[792,1604]"},{"class":"android.widget.Button","content-desc":"29, dimanche 29 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[855,1541][981,1667]","center":"[918,1604]"},{"class":"android.widget.Button","content-desc":"30, lundi 30 novembre 2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[99,1667][225,1793]","center":"[162,1730]"}]}]}]},{"class":"android.widget.Button","content-desc":"Annuler","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[610,1819][803,1945]","center":"[706,1882]"},{"class":"android.widget.Button","content-desc":"OK","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[824,1819][992,1945]","center":"[908,1882]"},{"class":"android.view.View","content-desc":"Ignorer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]"}]}]}]
+
+exit=0
+
+2026-11-05T14:04:49.923814+00:00 ["tap", "desc=/^OK$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "OK",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[824,1819][992,1945]",
+    "center": "[908,1882]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:04:51.904404+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":3,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":2,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:04","content-desc":"3:04 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"","type":"INPUT_METHOD","layer":1,"bounds":"[0,1499][1080,2274]","content":[{"class":"android.widget.LinearLayout","resource-id":"com.android.inputmethod.latin:id/important_notice_strip","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[95,1503][985,1604]","center":"[540,1553]","children":[{"class":"android.widget.TextView","resource-id":"com.android.inputmethod.latin:id/important_notice_title","text":"Suggest contact names? Touch for info.","bounds":"[95,1503][985,1604]","center":"[540,1553]"}]},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"1","bounds":"[0,1619][289,1784]","center":"[144,1701]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"2","bounds":"[288,1619][577,1784]","center":"[432,1701]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"3","bounds":"[576,1619][865,1784]","center":"[720,1701]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"-","bounds":"[864,1619][1080,1784]","center":"[972,1701]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"4","bounds":"[0,1784][289,1949]","center":"[144,1866]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"5","bounds":"[288,1784][577,1949]","center":"[432,1866]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"6","bounds":"[576,1784][865,1949]","center":"[720,1866]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":",","bounds":"[864,1784][1080,1949]","center":"[972,1866]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"7","bounds":"[0,1949][289,2114]","center":"[144,2031]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"8","bounds":"[288,1949][577,2114]","center":"[432,2031]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"9","bounds":"[576,1949][865,2114]","center":"[720,2031]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"Delete","bounds":"[864,1949][1080,2114]","center":"[972,2031]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":".","bounds":"[0,2114][289,2279]","center":"[144,2196]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"0","bounds":"[288,2114][577,2279]","center":"[432,2196]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"Space","bounds":"[576,2114][865,2279]","center":"[720,2196]"},{"class":"com.android.inputmethod.keyboard.Key","content-desc":"Next","bounds":"[864,2114][1080,2279]","center":"[972,2196]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Ajouter un aliment","interactions":["FOCUSABLE"],"bounds":"[189,173][658,246]","center":"[423,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,1499]","center":"[540,891]","children":[{"class":"android.widget.EditText","text":"Yaourts nature","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,316][1028,515]","center":"[540,415]","children":[{"class":"android.view.View","content-desc":"Saisissez le nom de l’aliment.","interactions":["FOCUSABLE"],"bounds":"[95,473][537,515]","center":"[316,494]"},{"class":"android.view.View","content-desc":"66 caractères restants","interactions":["FOCUSABLE"],"bounds":"[896,473][985,515]","center":"[940,494]"}]},{"class":"android.widget.EditText","text":"1","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"state":["FOCUSED"],"bounds":"[53,547][1028,694]","center":"[540,620]"},{"class":"android.widget.Button","content-desc":"Unité\npièce(s)","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,741][1028,888]","center":"[540,814]"},{"class":"android.widget.Button","content-desc":"Emplacement\nRéfrigérateur","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,935][1028,1082]","center":"[540,1008]"},{"class":"android.widget.Button","content-desc":"Date : 07/11/2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1130][1028,1261]","center":"[540,1195]"},{"class":"android.view.View","content-desc":"Cette date est un repère de rangement. Vérifiez les indications et les conditions de conservation de l’emballage.","interactions":["FOCUSABLE"],"bounds":"[53,1282][1028,1439]","center":"[540,1360]"},{"class":"android.widget.Button","content-desc":"Statut\nEn stock","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1487][1028,1499]","center":"[540,1493]"}]}]}]}]
+
+exit=0
+
+2026-11-05T14:05:15.907436+00:00 ["tap", "class=/^android.widget.EditText$/,text=/^1$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "1",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "state": [
+      "FOCUSED"
+    ],
+    "bounds": "[53,547][1028,694]",
+    "center": "[540,620]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:16.943290+00:00 ["text", "4", "class=/^android.widget.EditText$/,focused=true"]
+Entered text into element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "4",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "state": [
+      "FOCUSED"
+    ],
+    "bounds": "[53,547][1028,694]",
+    "center": "[540,620]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:17.754652+00:00 ["key", "back"]
+Pressed key: back
+
+exit=0
+
+2026-11-05T14:05:19.171589+00:00 ["scroll", "class=/^android.widget.ScrollView$/", "--dir", "down", "--until", "desc=/^Enregistrer$/"]
+Scrolled container:
+[
+  {
+    "class": "android.widget.ScrollView",
+    "interactions": [
+      "SCROLLABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[0,283][1080,2274]",
+    "center": "[540,1278]"
+  }
+]
+to target element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,2027][1028,2159]",
+    "center": "[540,2093]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:20.310122+00:00 ["tap", "desc=/^Enregistrer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,2027][1028,2159]",
+    "center": "[540,2093]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:22.202697+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:05","content-desc":"3:05 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.view.View","content-desc":"Moins oublier.\nMieux cuisiner.","interactions":["FOCUSABLE"],"bounds":"[53,315][1028,504]","center":"[540,409]"},{"class":"android.view.View","content-desc":"1 lot(s) en stock • Vos aliments, au même endroit.","interactions":["FOCUSABLE"],"bounds":"[53,535][1028,588]","center":"[540,561]"},{"class":"android.view.View","content-desc":"À cuisiner d’abord\n1 lot(s) à date sous 3 jours. 0 date(s) dépassée(s).","interactions":["FOCUSABLE"],"bounds":"[53,645][1028,908]","center":"[540,776]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,960][1028,1107]","center":"[540,1033]"},{"class":"android.widget.HorizontalScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[53,1144][1028,1270]","center":"[540,1207]","children":[{"class":"android.widget.Button","content-desc":"En stock","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[53,1144][337,1270]","center":"[195,1207]"},{"class":"android.widget.Button","content-desc":"Sous 3 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[358,1144][654,1270]","center":"[506,1207]"},{"class":"android.widget.Button","content-desc":"Date dépassée","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[675,1144][1011,1270]","center":"[843,1207]"}]},{"class":"android.view.View","content-desc":"1 lot(s) • Dates les plus proches en premier","interactions":["FOCUSABLE"],"bounds":"[53,1323][1028,1365]","center":"[540,1344]"},{"class":"android.view.View","content-desc":"Yaourts nature\n4 pièce(s) • Réfrigérateur\nDans 2 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1391][1028,1685]","center":"[540,1538]"},{"class":"android.view.View","content-desc":"Aliment ajouté.","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,1710][1080,1875]","center":"[540,1792]"},{"class":"android.widget.Button","content-desc":"Ajouter un aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[553,1875][1038,2022]","center":"[795,1948]"},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:05:35.926567+00:00 ["capture", "02-inventaire.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/02-inventaire.png
+
+exit=0
+
+2026-11-05T14:05:37.072163+00:00 ["tap", "desc=/^Sauvegardes$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Sauvegardes",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[807,147][933,273]",
+    "center": "[870,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:38.565097+00:00 ["tap", "desc=/^Enregistrer le fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer le fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,887][1017,1013]",
+    "center": "[540,950]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:40.637377+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:05","content-desc":"3:05 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Downloads","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.ScrollView","interactions":["SCROLLABLE"],"bounds":"[0,136][1080,2400]","center":"[540,1268]","children":[{"class":"android.widget.ScrollView","interactions":["FOCUSABLE"],"bounds":"[0,136][1080,546]","center":"[540,341]","children":[{"class":"androidx.recyclerview.widget.RecyclerView","resource-id":"com.android.documentsui:id/horizontal_breadcrumb","interactions":["FOCUSABLE"],"bounds":"[0,262][1080,388]","center":"[540,325]","children":[{"class":"android.widget.LinearLayout","interactions":["FOCUSABLE"],"bounds":"[0,262][288,388]","center":"[144,325]","children":[{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/breadcrumb_text","text":"Downloads","bounds":"[0,262][288,388]","center":"[144,325]"}]}]},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/header_title","text":"Files in Downloads","bounds":"[63,388][890,546]","center":"[476,467]"},{"class":"android.widget.Button","resource-id":"com.android.documentsui:id/sub_menu_list","content-desc":"List view","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[890,404][1017,530]","center":"[953,467]"}]},{"class":"android.widget.ImageButton","content-desc":"Show roots","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,136][147,262]","center":"[73,199]"},{"class":"android.widget.TextView","text":"Downloads","bounds":"[189,163][453,234]","center":"[321,198]"},{"class":"android.widget.Button","resource-id":"com.android.documentsui:id/option_menu_create_dir","content-desc":"New folder","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[827,136][954,262]","center":"[890,199]"},{"class":"android.widget.ImageView","content-desc":"More options","interactions":["CLICKABLE","LONG_CLICKABLE","FOCUSABLE"],"bounds":"[954,136][1080,262]","center":"[1017,199]"},{"class":"android.widget.GridView","resource-id":"com.android.documentsui:id/dir_list","interactions":["FOCUSABLE"],"bounds":"[0,136][1080,2400]","center":"[540,1268]","children":[{"class":"android.widget.FrameLayout","resource-id":"android:id/empty","interactions":["FOCUSABLE"],"bounds":"[53,546][1027,1457]","center":"[540,1001]","children":[{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/message","text":"No items","bounds":"[53,1334][1027,1391]","center":"[540,1362]"}]}]},{"class":"android.widget.EditText","resource-id":"android:id/title","text":"reserve-1793887537809.json","interactions":["CLICKABLE","LONG_CLICKABLE","FOCUSABLE","EDITABLE","TEXT_SELECTABLE"],"bounds":"[189,2152][801,2270]","center":"[495,2211]"},{"class":"android.widget.Button","resource-id":"android:id/button1","text":"SAVE","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[812,2148][1043,2274]","center":"[927,2211]"}]}]}]
+
+exit=0
+
+2026-11-05T14:05:54.560822+00:00 ["tap", "id=android:id/title"]
+Tapped element:
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "android:id/title",
+    "text": "reserve-1793887537809.json",
+    "interactions": [
+      "CLICKABLE",
+      "LONG_CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE",
+      "TEXT_SELECTABLE"
+    ],
+    "bounds": "[189,2152][801,2270]",
+    "center": "[495,2211]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:55.645550+00:00 ["text", "reserve-android-recette.json", "id=android:id/title"]
+Entered text into element:
+[
+  {
+    "class": "android.widget.EditText",
+    "resource-id": "android:id/title",
+    "text": "reserve-android-recette.json",
+    "interactions": [
+      "CLICKABLE",
+      "LONG_CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE",
+      "TEXT_SELECTABLE"
+    ],
+    "state": [
+      "FOCUSED"
+    ],
+    "bounds": "[189,1377][801,1495]",
+    "center": "[495,1436]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:05:56.410646+00:00 ["key", "back"]
+Pressed key: back
+
+exit=0
+
+2026-11-05T14:05:57.240093+00:00 ["capture", "03-export-selecteur-android.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/03-export-selecteur-android.png
+
+exit=0
+
+2026-11-05T14:05:58.406110+00:00 ["tap", "id=android:id/button1"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "resource-id": "android:id/button1",
+    "text": "SAVE",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[812,2148][1043,2274]",
+    "center": "[927,2211]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:06:00.462292+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:05","content-desc":"3:05 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Sauvegardes","interactions":["FOCUSABLE"],"bounds":"[189,173][521,246]","center":"[355,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Votre réserve vous suit.","interactions":["FOCUSABLE"],"bounds":"[63,540][1017,635]","center":"[540,587]"},{"class":"android.view.View","content-desc":"Exportez vos lots dans un fichier JSON, puis importez-le sur un autre appareil. Toutes les opérations fonctionnent hors connexion.","interactions":["FOCUSABLE"],"bounds":"[63,666][1017,824]","center":"[540,745]"},{"class":"android.widget.Button","content-desc":"Enregistrer le fichier JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,887][1017,1013]","center":"[540,950]"},{"class":"android.widget.Button","content-desc":"Copier la sauvegarde JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1013][1017,1139]","center":"[540,1076]"},{"class":"android.view.View","content-desc":"Restaurer ou fusionner","interactions":["FOCUSABLE"],"bounds":"[63,1212][1017,1286]","center":"[540,1249]"},{"class":"android.view.View","content-desc":"La fusion conserve vos lots actuels. Les identifiants évitent les doublons et les dates de modification règlent les conflits. Limite : 2 Mo et 5 000 lots par fichier.","interactions":["FOCUSABLE"],"bounds":"[63,1317][1017,1475]","center":"[540,1396]"},{"class":"android.widget.Button","content-desc":"Choisir un fichier JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1517][1017,1643]","center":"[540,1580]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[63,1674][1017,2010]","center":"[540,1842]"},{"class":"android.widget.Button","content-desc":"Vérifier et importer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2047][1017,2173]","center":"[540,2110]"},{"class":"android.view.View","content-desc":"Le JSON contient les noms et notes de vos aliments en clair. Choisissez vous-même où le conserver. Aucune sauvegarde automatique dans le cloud.","interactions":["FOCUSABLE"],"bounds":"[63,2226][1017,2274]","center":"[540,2250]"}]},{"class":"android.view.View","content-desc":"Sauvegarde JSON enregistrée.","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,2109][1080,2274]","center":"[540,2191]"}]}]}]
+
+exit=0
+
+2026-11-05T14:06:00.543598+00:00 ["adb", "shell", "cat", "/sdcard/Download/reserve-android-recette.json"]
+{
+  "application": "reserve",
+  "version": 1,
+  "exported_at": "2026-11-05T14:05:37.808624Z",
+  "lots": [
+    {
+      "id": "5e8277f15296bc4d2627c3cd90066a18",
+      "name": "Yaourts nature",
+      "quantity": 4,
+      "unit": "pièce(s)",
+      "place": "fridge",
+      "status": "available",
+      "expiry": "2026-11-07",
+      "created_at": "2026-11-05T14:05:19.569573Z",
+      "updated_at": "2026-11-05T14:05:19.569573Z",
+      "notes": ""
+    }
+  ]
+}
+exit=0
+
+2026-11-05T14:06:25.701509+00:00 ["adb", "pull", "/sdcard/Download/reserve-android-recette.json", "projet_final/docs/android/export-verifie.json"]
+/sdcard/Download/reserve-android-recette.json: 1 file pulled, 0 skipped. 0.2 MB/s (455 bytes in 0.002s)
+
+exit=0
+
+2026-11-05T14:06:26.873938+00:00 ["tap", "desc=/^Enregistrer le fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer le fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,887][1017,1013]",
+    "center": "[540,950]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:06:28.275668+00:00 ["key", "back"]
+Pressed key: back
+
+exit=0
+
+2026-11-05T14:06:29.604905+00:00 ["tap", "desc=/^Choisir un fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Choisir un fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,1517][1017,1643]",
+    "center": "[540,1580]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:06:31.629878+00:00 ["key", "back"]
+Pressed key: back
+
+exit=0
+
+2026-11-05T14:06:32.920606+00:00 ["tap", "desc=/^Retour$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Retour",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[11,147][137,273]",
+    "center": "[74,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:06:34.281235+00:00 ["tap", "desc=/^Yaourts nature\\n/"]
+Tapped element:
+[
+  {
+    "class": "android.view.View",
+    "content-desc": "Yaourts nature\n4 pièce(s) • Réfrigérateur\nDans 2 jours",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,1391][1028,1685]",
+    "center": "[540,1538]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:06:36.151130+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:06","content-desc":"3:06 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Fiche aliment","interactions":["FOCUSABLE"],"bounds":"[189,173][533,246]","center":"[361,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Yaourts nature","interactions":["FOCUSABLE"],"bounds":"[63,677][1017,782]","center":"[540,729]"},{"class":"android.view.View","content-desc":"Dans 2 jours","interactions":["FOCUSABLE"],"bounds":"[63,813][1017,866]","center":"[540,839]"},{"class":"android.view.View","content-desc":"Quantité\n4 pièce(s)","interactions":["FOCUSABLE"],"bounds":"[63,929][1017,1149]","center":"[540,1039]"},{"class":"android.view.View","content-desc":"Emplacement\nRéfrigérateur","interactions":["FOCUSABLE"],"bounds":"[63,1149][1017,1370]","center":"[540,1259]"},{"class":"android.view.View","content-desc":"Date sur l’emballage\n07/11/2026","interactions":["FOCUSABLE"],"bounds":"[63,1370][1017,1590]","center":"[540,1480]"},{"class":"android.view.View","content-desc":"Statut\nEn stock","interactions":["FOCUSABLE"],"bounds":"[63,1590][1017,1811]","center":"[540,1700]"},{"class":"android.widget.Button","content-desc":"Marquer comme consommé","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1884][1017,2010]","center":"[540,1947]"},{"class":"android.widget.Button","content-desc":"Modifier","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2037][1017,2163]","center":"[540,2100]"},{"class":"android.widget.Button","content-desc":"Supprimer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2189][1017,2274]","center":"[540,2231]"}]}]}]}]
+
+exit=0
+
+2026-11-05T14:06:53.548815+00:00 ["capture", "04-fiche-android.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/04-fiche-android.png
+
+exit=0
+
+2026-11-05T14:06:54.716561+00:00 ["tap", "desc=/^Supprimer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Supprimer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,2189][1017,2274]",
+    "center": "[540,2231]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:06:56.622612+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:06","content-desc":"3:06 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Supprimer cet aliment ?","interactions":["FOCUSABLE"],"bounds":"[168,969][912,1053]","center":"[540,1011]"},{"class":"android.view.View","content-desc":"Le lot « Yaourts nature » sera définitivement supprimé. Pour le conserver dans le bilan, marquez-le comme consommé ou jeté.","interactions":["FOCUSABLE"],"bounds":"[168,1095][912,1252]","center":"[540,1173]"},{"class":"android.widget.Button","content-desc":"Annuler","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[399,1315][592,1441]","center":"[495,1378]"},{"class":"android.widget.Button","content-desc":"Supprimer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[613,1315][912,1441]","center":"[762,1378]"},{"class":"android.view.View","content-desc":"Ignorer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]"}]}]}]
+
+exit=0
+
+2026-11-05T14:07:10.901669+00:00 ["tap", "desc=/^Annuler$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Annuler",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[399,1315][592,1441]",
+    "center": "[495,1378]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:07:12.085915+00:00 ["tap", "desc=/^Supprimer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Supprimer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,2189][1017,2274]",
+    "center": "[540,2231]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:07:13.367470+00:00 ["tap", "desc=/^Supprimer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Supprimer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[613,1315][912,1441]",
+    "center": "[762,1378]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:07:15.255629+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:07","content-desc":"3:07 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2064]","center":"[540,1173]","children":[{"class":"android.view.View","content-desc":"Moins oublier.\nMieux cuisiner.","interactions":["FOCUSABLE"],"bounds":"[53,315][1028,504]","center":"[540,409]"},{"class":"android.view.View","content-desc":"0 lot(s) en stock • Vos aliments, au même endroit.","interactions":["FOCUSABLE"],"bounds":"[53,535][1028,588]","center":"[540,561]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,698][1028,845]","center":"[540,771]"},{"class":"android.widget.HorizontalScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[53,882][1028,1008]","center":"[540,945]","children":[{"class":"android.widget.Button","content-desc":"En stock","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[53,882][337,1008]","center":"[195,945]"},{"class":"android.widget.Button","content-desc":"Sous 3 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[358,882][654,1008]","center":"[506,945]"},{"class":"android.widget.Button","content-desc":"Date dépassée","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[675,882][1011,1008]","center":"[843,945]"}]},{"class":"android.view.View","content-desc":"Votre réserve commence ici\nAjoutez un premier aliment avec sa quantité, son lieu et sa date.","interactions":["FOCUSABLE"],"bounds":"[53,1060][1028,1863]","center":"[540,1461]","children":[{"class":"android.widget.Button","content-desc":"Ajouter mon premier aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[238,1632][842,1758]","center":"[540,1695]"}]}]},{"class":"android.view.View","content-desc":"Aliment supprimé.","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,1710][1080,1875]","center":"[540,1792]"},{"class":"android.widget.Button","content-desc":"Ajouter un aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[553,1875][1038,2022]","center":"[795,1948]"},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:07:24.630720+00:00 ["tap", "desc=/^Sauvegardes$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Sauvegardes",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[807,147][933,273]",
+    "center": "[870,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:07:25.953757+00:00 ["tap", "desc=/^Choisir un fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Choisir un fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,1517][1017,1643]",
+    "center": "[540,1580]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:07:28.013337+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:07","content-desc":"3:07 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Downloads","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.ScrollView","interactions":["SCROLLABLE"],"bounds":"[0,136][1080,2400]","center":"[540,1268]","children":[{"class":"android.widget.ScrollView","interactions":["FOCUSABLE"],"bounds":"[0,136][1080,672]","center":"[540,404]","children":[{"class":"androidx.recyclerview.widget.RecyclerView","resource-id":"com.android.documentsui:id/horizontal_breadcrumb","interactions":["FOCUSABLE"],"bounds":"[0,262][1080,388]","center":"[540,325]","children":[{"class":"android.widget.LinearLayout","interactions":["FOCUSABLE"],"bounds":"[0,262][288,388]","center":"[144,325]","children":[{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/breadcrumb_text","text":"Downloads","bounds":"[0,262][288,388]","center":"[144,325]"}]}]},{"class":"android.widget.HorizontalScrollView","interactions":["FOCUSABLE"],"bounds":"[0,388][1080,514]","center":"[540,451]","children":[{"class":"android.widget.Button","text":"Large files","interactions":["CHECKABLE","CLICKABLE","FOCUSABLE"],"bounds":"[64,388][368,514]","center":"[216,451]"},{"class":"android.widget.Button","text":"This week","interactions":["CHECKABLE","CLICKABLE","FOCUSABLE"],"bounds":"[390,388][690,514]","center":"[540,451]"}]},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/header_title","text":"Files in Downloads","bounds":"[63,514][890,672]","center":"[476,593]"},{"class":"android.widget.Button","resource-id":"com.android.documentsui:id/sub_menu_list","content-desc":"List view","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[890,530][1017,656]","center":"[953,593]"}]},{"class":"android.widget.ImageButton","content-desc":"Show roots","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,136][147,262]","center":"[73,199]"},{"class":"android.widget.TextView","text":"Downloads","bounds":"[189,163][453,234]","center":"[321,198]"},{"class":"android.widget.Button","resource-id":"com.android.documentsui:id/option_menu_search","content-desc":"Search","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[827,136][954,262]","center":"[890,199]"},{"class":"android.widget.ImageView","content-desc":"More options","interactions":["CLICKABLE","LONG_CLICKABLE","FOCUSABLE"],"bounds":"[954,136][1080,262]","center":"[1017,199]"},{"class":"android.widget.GridView","resource-id":"com.android.documentsui:id/dir_list","interactions":["FOCUSABLE"],"bounds":"[0,136][1080,2400]","center":"[540,1268]","children":[{"class":"androidx.cardview.widget.CardView","resource-id":"com.android.documentsui:id/item_root","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[64,683][529,1284]","center":"[296,983]","children":[{"class":"android.widget.FrameLayout","resource-id":"com.android.documentsui:id/preview_icon","content-desc":"Preview the file reserve-android-recette.json","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[403,683][529,809]","center":"[466,746]"},{"class":"android.widget.TextView","resource-id":"android:id/title","text":"reserve-android-recette.json","bounds":"[196,1169][497,1220]","center":"[346,1194]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/details","text":"455 B","bounds":"[196,1220][278,1263]","center":"[237,1241]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/date","text":"3:05 PM","bounds":"[289,1220][407,1263]","center":"[348,1241]"}]}]}]}]}]
+
+exit=0
+
+2026-11-05T14:07:38.373610+00:00 ["tap", "text=/^reserve-android-recette.json$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "reserve-android-recette.json",
+    "bounds": "[196,1169][497,1220]",
+    "center": "[346,1194]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:07:40.375354+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:07","content-desc":"3:07 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Importer cette sauvegarde ?","interactions":["FOCUSABLE"],"bounds":"[168,848][912,1016]","center":"[540,932]"},{"class":"android.view.View","content-desc":"1 lot(s) valide(s).\n1 ajout(s), 0 mise(s) à jour.\n\nLes autres lots restent conservés. À identifiant égal, la modification la plus récente est retenue.","interactions":["FOCUSABLE"],"bounds":"[168,1058][912,1373]","center":"[540,1215]"},{"class":"android.widget.Button","content-desc":"Annuler","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[428,1436][620,1562]","center":"[524,1499]"},{"class":"android.widget.Button","content-desc":"Importer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[641,1436][912,1562]","center":"[776,1499]"},{"class":"android.view.View","content-desc":"Ignorer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]"}]}]}]
+
+exit=0
+
+2026-11-05T14:07:41.474097+00:00 ["capture", "05-restauration-apercu.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/05-restauration-apercu.png
+
+exit=0
+
+2026-11-05T14:08:48.987066+00:00 ["tap", "desc=/^Importer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Importer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[641,1436][912,1562]",
+    "center": "[776,1499]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:08:50.429353+00:00 ["tap", "desc=/^Choisir un fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Choisir un fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,1517][1017,1643]",
+    "center": "[540,1580]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:08:51.793570+00:00 ["tap", "text=/^reserve-android-recette.json$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "reserve-android-recette.json",
+    "bounds": "[196,1169][497,1220]",
+    "center": "[346,1194]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:08:53.889575+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:08","content-desc":"3:08 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Importer cette sauvegarde ?","interactions":["FOCUSABLE"],"bounds":"[168,848][912,1016]","center":"[540,932]"},{"class":"android.view.View","content-desc":"1 lot(s) valide(s).\n0 ajout(s), 0 mise(s) à jour.\n\nLes autres lots restent conservés. À identifiant égal, la modification la plus récente est retenue.","interactions":["FOCUSABLE"],"bounds":"[168,1058][912,1373]","center":"[540,1215]"},{"class":"android.widget.Button","content-desc":"Annuler","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[428,1436][620,1562]","center":"[524,1499]"},{"class":"android.widget.Button","content-desc":"Importer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[641,1436][912,1562]","center":"[776,1499]"},{"class":"android.view.View","content-desc":"Ignorer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]"}]}]}]
+
+exit=0
+
+2026-11-05T14:08:54.993752+00:00 ["capture", "06-import-sans-doublon.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/06-import-sans-doublon.png
+
+exit=0
+
+2026-11-05T14:08:56.271608+00:00 ["tap", "desc=/^Importer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Importer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[641,1436][912,1562]",
+    "center": "[776,1499]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:09:13.765264+00:00 ["adb", "push", "/tmp/reserve-invalide.json", "/sdcard/Download/reserve-invalide.json"]
+/tmp/reserve-invalide.json: 1 file pushed, 0 skipped. 0.0 MB/s (9 bytes in 0.000s)
+
+exit=0
+
+2026-11-05T14:09:13.831345+00:00 ["adb", "push", "/tmp/reserve-trop-volumineux.json", "/sdcard/Download/reserve-trop-volumineux.json"]
+/tmp/reserve-trop-volumineux.json: 1 file pushed, 0 skipped. 495.5 MB/s (2097153 bytes in 0.004s)
+
+exit=0
+
+2026-11-05T14:09:14.990042+00:00 ["tap", "desc=/^Choisir un fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Choisir un fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,1517][1017,1643]",
+    "center": "[540,1580]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:09:16.928416+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:09","content-desc":"3:09 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Downloads","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.ScrollView","interactions":["SCROLLABLE"],"bounds":"[0,136][1080,2400]","center":"[540,1268]","children":[{"class":"android.widget.ScrollView","interactions":["FOCUSABLE"],"bounds":"[0,136][1080,672]","center":"[540,404]","children":[{"class":"androidx.recyclerview.widget.RecyclerView","resource-id":"com.android.documentsui:id/horizontal_breadcrumb","interactions":["FOCUSABLE"],"bounds":"[0,262][1080,388]","center":"[540,325]","children":[{"class":"android.widget.LinearLayout","interactions":["FOCUSABLE"],"bounds":"[0,262][288,388]","center":"[144,325]","children":[{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/breadcrumb_text","text":"Downloads","bounds":"[0,262][288,388]","center":"[144,325]"}]}]},{"class":"android.widget.HorizontalScrollView","interactions":["FOCUSABLE"],"bounds":"[0,388][1080,514]","center":"[540,451]","children":[{"class":"android.widget.Button","text":"Large files","interactions":["CHECKABLE","CLICKABLE","FOCUSABLE"],"bounds":"[64,388][368,514]","center":"[216,451]"},{"class":"android.widget.Button","text":"This week","interactions":["CHECKABLE","CLICKABLE","FOCUSABLE"],"bounds":"[390,388][690,514]","center":"[540,451]"}]},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/header_title","text":"Files in Downloads","bounds":"[63,514][890,672]","center":"[476,593]"},{"class":"android.widget.Button","resource-id":"com.android.documentsui:id/sub_menu_list","content-desc":"List view","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[890,530][1017,656]","center":"[953,593]"}]},{"class":"android.widget.ImageButton","content-desc":"Show roots","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,136][147,262]","center":"[73,199]"},{"class":"android.widget.TextView","text":"Downloads","bounds":"[189,163][453,234]","center":"[321,198]"},{"class":"android.widget.Button","resource-id":"com.android.documentsui:id/option_menu_search","content-desc":"Search","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[827,136][954,262]","center":"[890,199]"},{"class":"android.widget.ImageView","content-desc":"More options","interactions":["CLICKABLE","LONG_CLICKABLE","FOCUSABLE"],"bounds":"[954,136][1080,262]","center":"[1017,199]"},{"class":"android.widget.GridView","resource-id":"com.android.documentsui:id/dir_list","interactions":["FOCUSABLE"],"bounds":"[0,136][1080,2400]","center":"[540,1268]","children":[{"class":"androidx.cardview.widget.CardView","resource-id":"com.android.documentsui:id/item_root","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[64,683][529,1284]","center":"[296,983]","children":[{"class":"android.widget.FrameLayout","resource-id":"com.android.documentsui:id/preview_icon","content-desc":"Preview the file reserve-invalide.json","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[403,683][529,809]","center":"[466,746]"},{"class":"android.widget.TextView","resource-id":"android:id/title","text":"reserve-invalide.json","bounds":"[196,1169][497,1220]","center":"[346,1194]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/details","text":"9 B","bounds":"[196,1220][242,1263]","center":"[219,1241]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/date","text":"3:09 PM","bounds":"[253,1220][371,1263]","center":"[312,1241]"}]},{"class":"androidx.cardview.widget.CardView","resource-id":"com.android.documentsui:id/item_root","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[551,683][1016,1284]","center":"[783,983]","children":[{"class":"android.widget.FrameLayout","resource-id":"com.android.documentsui:id/preview_icon","content-desc":"Preview the file reserve-trop-volumineux.json","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[890,683][1016,809]","center":"[953,746]"},{"class":"android.widget.TextView","resource-id":"android:id/title","text":"reserve-trop-volumineux.json","bounds":"[683,1169][984,1220]","center":"[833,1194]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/details","text":"2.10 MB","bounds":"[683,1220][801,1263]","center":"[742,1241]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/date","text":"3:09 PM","bounds":"[812,1220][930,1263]","center":"[871,1241]"}]},{"class":"androidx.cardview.widget.CardView","resource-id":"com.android.documentsui:id/item_root","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[64,1306][529,1907]","center":"[296,1606]","children":[{"class":"android.widget.FrameLayout","resource-id":"com.android.documentsui:id/preview_icon","content-desc":"Preview the file reserve-android-recette.json","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[403,1306][529,1432]","center":"[466,1369]"},{"class":"android.widget.TextView","resource-id":"android:id/title","text":"reserve-android-recette.json","bounds":"[196,1792][497,1843]","center":"[346,1817]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/details","text":"455 B","bounds":"[196,1843][278,1886]","center":"[237,1864]"},{"class":"android.widget.TextView","resource-id":"com.android.documentsui:id/date","text":"3:05 PM","bounds":"[289,1843][407,1886]","center":"[348,1864]"}]}]}]}]}]
+
+exit=0
+
+2026-11-05T14:09:46.061466+00:00 ["tap", "text=/^reserve-invalide.json$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "reserve-invalide.json",
+    "bounds": "[196,1169][497,1220]",
+    "center": "[346,1194]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:09:48.013032+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:09","content-desc":"3:09 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Sauvegardes","interactions":["FOCUSABLE"],"bounds":"[189,173][521,246]","center":"[355,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Votre réserve vous suit.","interactions":["FOCUSABLE"],"bounds":"[63,540][1017,635]","center":"[540,587]"},{"class":"android.view.View","content-desc":"Exportez vos lots dans un fichier JSON, puis importez-le sur un autre appareil. Toutes les opérations fonctionnent hors connexion.","interactions":["FOCUSABLE"],"bounds":"[63,666][1017,824]","center":"[540,745]"},{"class":"android.widget.Button","content-desc":"Enregistrer le fichier JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,887][1017,1013]","center":"[540,950]"},{"class":"android.widget.Button","content-desc":"Copier la sauvegarde JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1013][1017,1139]","center":"[540,1076]"},{"class":"android.view.View","content-desc":"Restaurer ou fusionner","interactions":["FOCUSABLE"],"bounds":"[63,1212][1017,1286]","center":"[540,1249]"},{"class":"android.view.View","content-desc":"La fusion conserve vos lots actuels. Les identifiants évitent les doublons et les dates de modification règlent les conflits. Limite : 2 Mo et 5 000 lots par fichier.","interactions":["FOCUSABLE"],"bounds":"[63,1317][1017,1475]","center":"[540,1396]"},{"class":"android.widget.Button","content-desc":"Choisir un fichier JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1517][1017,1643]","center":"[540,1580]"},{"class":"android.widget.EditText","text":"{invalide","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[63,1674][1017,2010]","center":"[540,1842]"},{"class":"android.widget.Button","content-desc":"Vérifier et importer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2047][1017,2173]","center":"[540,2110]"},{"class":"android.view.View","content-desc":"Sauvegarde invalide : format Réserve v1 attendu, lots valides et identifiants uniques.","interactions":["FOCUSABLE"],"bounds":"[63,2173][1017,2274]","center":"[540,2223]"}]}]}]}]
+
+exit=0
+
+2026-11-05T14:09:48.855917+00:00 ["capture", "07-json-invalide-refuse.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/07-json-invalide-refuse.png
+
+exit=0
+
+2026-11-05T14:09:50.080023+00:00 ["tap", "desc=/^Choisir un fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Choisir un fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,1517][1017,1643]",
+    "center": "[540,1580]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:09:51.376779+00:00 ["tap", "text=/^reserve-trop-volumineux.json$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "reserve-trop-volumineux.json",
+    "bounds": "[683,1169][984,1220]",
+    "center": "[833,1194]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:09:53.384354+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:09","content-desc":"3:09 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Sauvegardes","interactions":["FOCUSABLE"],"bounds":"[189,173][521,246]","center":"[355,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Votre réserve vous suit.","interactions":["FOCUSABLE"],"bounds":"[63,540][1017,635]","center":"[540,587]"},{"class":"android.view.View","content-desc":"Exportez vos lots dans un fichier JSON, puis importez-le sur un autre appareil. Toutes les opérations fonctionnent hors connexion.","interactions":["FOCUSABLE"],"bounds":"[63,666][1017,824]","center":"[540,745]"},{"class":"android.widget.Button","content-desc":"Enregistrer le fichier JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,887][1017,1013]","center":"[540,950]"},{"class":"android.widget.Button","content-desc":"Copier la sauvegarde JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1013][1017,1139]","center":"[540,1076]"},{"class":"android.view.View","content-desc":"Restaurer ou fusionner","interactions":["FOCUSABLE"],"bounds":"[63,1212][1017,1286]","center":"[540,1249]"},{"class":"android.view.View","content-desc":"La fusion conserve vos lots actuels. Les identifiants évitent les doublons et les dates de modification règlent les conflits. Limite : 2 Mo et 5 000 lots par fichier.","interactions":["FOCUSABLE"],"bounds":"[63,1317][1017,1475]","center":"[540,1396]"},{"class":"android.widget.Button","content-desc":"Choisir un fichier JSON","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1517][1017,1643]","center":"[540,1580]"},{"class":"android.widget.EditText","text":"{invalide","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[63,1674][1017,2010]","center":"[540,1842]"},{"class":"android.widget.Button","content-desc":"Vérifier et importer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2047][1017,2173]","center":"[540,2110]"},{"class":"android.view.View","content-desc":"Lecture du fichier impossible. Choisissez un JSON Réserve de moins de 2 Mo.","interactions":["FOCUSABLE"],"bounds":"[63,2173][1017,2274]","center":"[540,2223]"}]}]}]}]
+
+exit=0
+
+2026-11-05T14:10:10.649416+00:00 ["tap", "desc=/^Retour$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Retour",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[11,147][137,273]",
+    "center": "[74,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:11.915355+00:00 ["tap", "desc=/^Yaourts nature\\n/"]
+Tapped element:
+[
+  {
+    "class": "android.view.View",
+    "content-desc": "Yaourts nature\n4 pièce(s) • Réfrigérateur\nDans 2 jours",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,1391][1028,1685]",
+    "center": "[540,1538]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:13.261957+00:00 ["tap", "desc=/^Modifier$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Modifier",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,2037][1017,2163]",
+    "center": "[540,2100]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:15.195614+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:10","content-desc":"3:10 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Modifier l’aliment","interactions":["FOCUSABLE"],"bounds":"[189,173][631,246]","center":"[410,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Un lot, une date, un endroit.","interactions":["FOCUSABLE"],"bounds":"[53,336][1028,420]","center":"[540,378]"},{"class":"android.view.View","content-desc":"Séparez les lots si leurs dates sont différentes. Les champs marqués * sont obligatoires.","interactions":["FOCUSABLE"],"bounds":"[53,441][1028,546]","center":"[540,493]"},{"class":"android.widget.EditText","text":"Yaourts nature","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,609][1028,808]","center":"[540,708]","children":[{"class":"android.view.View","content-desc":"66 caractères restants","interactions":["FOCUSABLE"],"bounds":"[896,766][985,808]","center":"[940,787]"}]},{"class":"android.widget.EditText","text":"4","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,840][1028,987]","center":"[540,913]"},{"class":"android.widget.Button","content-desc":"Unité\npièce(s)","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1034][1028,1181]","center":"[540,1107]"},{"class":"android.widget.Button","content-desc":"Emplacement\nRéfrigérateur","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1228][1028,1375]","center":"[540,1301]"},{"class":"android.widget.Button","content-desc":"Date : 07/11/2026","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1422][1028,1554]","center":"[540,1488]"},{"class":"android.view.View","content-desc":"Cette date est un repère de rangement. Vérifiez les indications et les conditions de conservation de l’emballage.","interactions":["FOCUSABLE"],"bounds":"[53,1575][1028,1732]","center":"[540,1653]"},{"class":"android.widget.Button","content-desc":"Statut\nEn stock","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1779][1028,1926]","center":"[540,1852]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,1974][1028,2274]","center":"[540,2124]","children":[{"class":"android.view.View","content-desc":"1 000 caractères restants","interactions":["FOCUSABLE"],"bounds":"[878,2257][985,2274]","center":"[931,2265]"}]}]}]}]}]
+
+exit=0
+
+2026-11-05T14:10:29.049845+00:00 ["tap", "class=/^android.widget.EditText$/,text=/^Yaourts nature$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "Yaourts nature",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "bounds": "[53,609][1028,808]",
+    "center": "[540,708]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:30.824332+00:00 ["text", "Yaourts nature bio", "class=/^android.widget.EditText$/,focused=true"]
+Entered text into element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "Yaourts nature bio",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "state": [
+      "FOCUSED"
+    ],
+    "bounds": "[53,609][1028,808]",
+    "center": "[540,708]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:32.073252+00:00 ["tap", "class=/^android.widget.EditText$/,text=/^4$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "4",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "bounds": "[53,840][1028,987]",
+    "center": "[540,913]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:33.114516+00:00 ["text", "3", "class=/^android.widget.EditText$/,focused=true"]
+Entered text into element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "3",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "state": [
+      "FOCUSED"
+    ],
+    "bounds": "[53,840][1028,987]",
+    "center": "[540,913]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:33.919453+00:00 ["key", "back"]
+Pressed key: back
+
+exit=0
+
+2026-11-05T14:10:36.633630+00:00 ["scroll", "class=/^android.widget.ScrollView$/", "--dir", "down", "--until", "desc=/^Enregistrer$/"]
+Scrolled container:
+[
+  {
+    "class": "android.widget.ScrollView",
+    "interactions": [
+      "SCROLLABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[0,283][1080,2274]",
+    "center": "[540,1278]"
+  }
+]
+to target element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,2027][1028,2159]",
+    "center": "[540,2093]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:37.926242+00:00 ["tap", "desc=/^Enregistrer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Enregistrer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,2027][1028,2159]",
+    "center": "[540,2093]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:10:39.825044+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:10","content-desc":"3:10 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Fiche aliment","interactions":["FOCUSABLE"],"bounds":"[189,173][533,246]","center":"[361,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Yaourts nature bio","interactions":["FOCUSABLE"],"bounds":"[63,677][1017,782]","center":"[540,729]"},{"class":"android.view.View","content-desc":"Dans 2 jours","interactions":["FOCUSABLE"],"bounds":"[63,813][1017,866]","center":"[540,839]"},{"class":"android.view.View","content-desc":"Quantité\n3 pièce(s)","interactions":["FOCUSABLE"],"bounds":"[63,929][1017,1149]","center":"[540,1039]"},{"class":"android.view.View","content-desc":"Emplacement\nRéfrigérateur","interactions":["FOCUSABLE"],"bounds":"[63,1149][1017,1370]","center":"[540,1259]"},{"class":"android.view.View","content-desc":"Date sur l’emballage\n07/11/2026","interactions":["FOCUSABLE"],"bounds":"[63,1370][1017,1590]","center":"[540,1480]"},{"class":"android.view.View","content-desc":"Statut\nEn stock","interactions":["FOCUSABLE"],"bounds":"[63,1590][1017,1811]","center":"[540,1700]"},{"class":"android.widget.Button","content-desc":"Marquer comme consommé","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1884][1017,2010]","center":"[540,1947]"},{"class":"android.widget.Button","content-desc":"Modifier","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2037][1017,2163]","center":"[540,2100]"},{"class":"android.widget.Button","content-desc":"Supprimer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2189][1017,2274]","center":"[540,2231]"}]},{"class":"android.view.View","content-desc":"Aliment modifié.","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,2109][1080,2274]","center":"[540,2191]"}]}]}]
+
+exit=0
+
+2026-11-05T14:11:31.089891+00:00 ["tap", "desc=/^Retour$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Retour",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[11,147][137,273]",
+    "center": "[74,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:32.325019+00:00 ["tap", "desc=/^Sauvegardes$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Sauvegardes",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[807,147][933,273]",
+    "center": "[870,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:33.771166+00:00 ["tap", "desc=/^Choisir un fichier JSON$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Choisir un fichier JSON",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,1517][1017,1643]",
+    "center": "[540,1580]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:35.076131+00:00 ["tap", "text=/^reserve-android-recette.json$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.TextView",
+    "resource-id": "android:id/title",
+    "text": "reserve-android-recette.json",
+    "bounds": "[196,1792][497,1843]",
+    "center": "[346,1817]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:37.128335+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:11","content-desc":"3:11 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Importer cette sauvegarde ?","interactions":["FOCUSABLE"],"bounds":"[168,848][912,1016]","center":"[540,932]"},{"class":"android.view.View","content-desc":"1 lot(s) valide(s).\n0 ajout(s), 0 mise(s) à jour.\n\nLes autres lots restent conservés. À identifiant égal, la modification la plus récente est retenue.","interactions":["FOCUSABLE"],"bounds":"[168,1058][912,1373]","center":"[540,1215]"},{"class":"android.widget.Button","content-desc":"Annuler","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[428,1436][620,1562]","center":"[524,1499]"},{"class":"android.widget.Button","content-desc":"Importer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[641,1436][912,1562]","center":"[776,1499]"},{"class":"android.view.View","content-desc":"Ignorer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]"}]}]}]
+
+exit=0
+
+2026-11-05T14:11:38.520656+00:00 ["tap", "desc=/^Importer$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Importer",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[641,1436][912,1562]",
+    "center": "[776,1499]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:39.788967+00:00 ["tap", "desc=/^Retour$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Retour",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[11,147][137,273]",
+    "center": "[74,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:41.691269+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:11","content-desc":"3:11 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.view.View","content-desc":"Moins oublier.\nMieux cuisiner.","interactions":["FOCUSABLE"],"bounds":"[53,315][1028,504]","center":"[540,409]"},{"class":"android.view.View","content-desc":"1 lot(s) en stock • Vos aliments, au même endroit.","interactions":["FOCUSABLE"],"bounds":"[53,535][1028,588]","center":"[540,561]"},{"class":"android.view.View","content-desc":"À cuisiner d’abord\n1 lot(s) à date sous 3 jours. 0 date(s) dépassée(s).","interactions":["FOCUSABLE"],"bounds":"[53,645][1028,908]","center":"[540,776]"},{"class":"android.widget.EditText","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"bounds":"[53,960][1028,1107]","center":"[540,1033]"},{"class":"android.widget.HorizontalScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[53,1144][1028,1270]","center":"[540,1207]","children":[{"class":"android.widget.Button","content-desc":"En stock","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[53,1144][337,1270]","center":"[195,1207]"},{"class":"android.widget.Button","content-desc":"Sous 3 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[358,1144][654,1270]","center":"[506,1207]"},{"class":"android.widget.Button","content-desc":"Date dépassée","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[675,1144][1011,1270]","center":"[843,1207]"}]},{"class":"android.view.View","content-desc":"1 lot(s) • Dates les plus proches en premier","interactions":["FOCUSABLE"],"bounds":"[53,1323][1028,1365]","center":"[540,1344]"},{"class":"android.view.View","content-desc":"Yaourts nature bio\n3 pièce(s) • Réfrigérateur\nDans 2 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1391][1028,1685]","center":"[540,1538]"},{"class":"android.view.View","content-desc":"Import terminé : 0 ajout(s), 0 mise(s) à jour.","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,1710][1080,1875]","center":"[540,1792]"},{"class":"android.widget.Button","content-desc":"Ajouter un aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[553,1875][1038,2022]","center":"[795,1948]"},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:11:56.897730+00:00 ["tap", "class=/^android.widget.EditText$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.EditText",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "bounds": "[53,960][1028,1107]",
+    "center": "[540,1033]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:58.369933+00:00 ["text", "yaourt", "class=/^android.widget.EditText$/,focused=true"]
+Entered text into element:
+[
+  {
+    "class": "android.widget.EditText",
+    "text": "yaourt",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE",
+      "EDITABLE"
+    ],
+    "state": [
+      "FOCUSED"
+    ],
+    "bounds": "[53,960][1028,1107]",
+    "center": "[540,1033]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:11:59.198212+00:00 ["key", "back"]
+Pressed key: back
+
+exit=0
+
+2026-11-05T14:12:00.632851+00:00 ["tap", "desc=/^Sous 3 jours$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Sous 3 jours",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[358,1144][654,1270]",
+    "center": "[506,1207]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:02.625665+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:12","content-desc":"3:12 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.view.View","content-desc":"Moins oublier.\nMieux cuisiner.","interactions":["FOCUSABLE"],"bounds":"[53,315][1028,504]","center":"[540,409]"},{"class":"android.view.View","content-desc":"1 lot(s) en stock • Vos aliments, au même endroit.","interactions":["FOCUSABLE"],"bounds":"[53,535][1028,588]","center":"[540,561]"},{"class":"android.view.View","content-desc":"À cuisiner d’abord\n1 lot(s) à date sous 3 jours. 0 date(s) dépassée(s).","interactions":["FOCUSABLE"],"bounds":"[53,645][1028,908]","center":"[540,776]"},{"class":"android.widget.EditText","text":"yaourt","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"state":["FOCUSED"],"bounds":"[53,960][1028,1107]","center":"[540,1033]","children":[{"class":"android.widget.Button","content-desc":"Effacer la recherche","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[901,971][1028,1097]","center":"[964,1034]"}]},{"class":"android.widget.HorizontalScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[53,1144][1028,1270]","center":"[540,1207]","children":[{"class":"android.widget.Button","content-desc":"En stock","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1144][284,1270]","center":"[168,1207]"},{"class":"android.widget.Button","content-desc":"Sous 3 jours","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[305,1144][654,1270]","center":"[479,1207]"},{"class":"android.widget.Button","content-desc":"Date dépassée","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[675,1144][1011,1270]","center":"[843,1207]"}]},{"class":"android.view.View","content-desc":"1 lot(s) • Dates les plus proches en premier","interactions":["FOCUSABLE"],"bounds":"[53,1323][1028,1365]","center":"[540,1344]"},{"class":"android.view.View","content-desc":"Yaourts nature bio\n3 pièce(s) • Réfrigérateur\nDans 2 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1391][1028,1685]","center":"[540,1538]"},{"class":"android.widget.Button","content-desc":"Ajouter un aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[553,1875][1038,2022]","center":"[795,1948]"},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:12:03.861668+00:00 ["tap", "desc=/^Date dépassée$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Date dépassée",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[675,1144][1011,1270]",
+    "center": "[843,1207]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:05.767786+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:12","content-desc":"3:12 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2064]","center":"[540,1173]","children":[{"class":"android.view.View","content-desc":"Moins oublier.\nMieux cuisiner.","interactions":["FOCUSABLE"],"bounds":"[53,315][1028,504]","center":"[540,409]"},{"class":"android.view.View","content-desc":"1 lot(s) en stock • Vos aliments, au même endroit.","interactions":["FOCUSABLE"],"bounds":"[53,535][1028,588]","center":"[540,561]"},{"class":"android.view.View","content-desc":"À cuisiner d’abord\n1 lot(s) à date sous 3 jours. 0 date(s) dépassée(s).","interactions":["FOCUSABLE"],"bounds":"[53,645][1028,908]","center":"[540,776]"},{"class":"android.widget.EditText","text":"yaourt","interactions":["CLICKABLE","FOCUSABLE","EDITABLE"],"state":["FOCUSED"],"bounds":"[53,960][1028,1107]","center":"[540,1033]","children":[{"class":"android.widget.Button","content-desc":"Effacer la recherche","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[901,971][1028,1097]","center":"[964,1034]"}]},{"class":"android.widget.HorizontalScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[53,1144][1028,1270]","center":"[540,1207]","children":[{"class":"android.widget.Button","content-desc":"En stock","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[53,1144][284,1270]","center":"[168,1207]"},{"class":"android.widget.Button","content-desc":"Sous 3 jours","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[305,1144][602,1270]","center":"[453,1207]"},{"class":"android.widget.Button","content-desc":"Date dépassée","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[623,1144][1011,1270]","center":"[817,1207]"}]},{"class":"android.view.View","content-desc":"Aucun aliment pour ce filtre\nEssayez un autre mot ou affichez tous les lots.","interactions":["FOCUSABLE"],"bounds":"[53,1323][1028,2064]","center":"[540,1693]","children":[{"class":"android.widget.Button","content-desc":"Voir tous les lots","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[369,1842][711,1968]","center":"[540,1905]"}]}]},{"class":"android.widget.Button","content-desc":"Ajouter un aliment","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[553,1875][1038,2022]","center":"[795,1948]"},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:12:39.824270+00:00 ["tap", "desc=/^Effacer la recherche$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Effacer la recherche",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[901,971][1028,1097]",
+    "center": "[964,1034]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:41.151762+00:00 ["tap", "desc=/^En stock$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "En stock",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,1144][284,1270]",
+    "center": "[168,1207]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:42.697421+00:00 ["tap", "desc=/^Yaourts nature bio\\n/"]
+Tapped element:
+[
+  {
+    "class": "android.view.View",
+    "content-desc": "Yaourts nature bio\n3 pièce(s) • Réfrigérateur\nDans 2 jours",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,1391][1028,1685]",
+    "center": "[540,1538]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:43.917045+00:00 ["tap", "desc=/^Marquer comme consommé$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Marquer comme consommé",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[63,1884][1017,2010]",
+    "center": "[540,1947]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:45.160955+00:00 ["tap", "desc=/^Retour$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Retour",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[11,147][137,273]",
+    "center": "[74,210]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:46.463052+00:00 ["tap", "desc=/^Bilan\\n/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Bilan\nOnglet 2 sur 2",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[540,2064][1080,2274]",
+    "center": "[810,2169]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:12:49.237797+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:12","content-desc":"3:12 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"state":["FOCUSED"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2064]","center":"[540,1173]","children":[{"class":"android.view.View","content-desc":"Chaque lot compte.","interactions":["FOCUSABLE"],"bounds":"[63,346][1017,451]","center":"[540,398]"},{"class":"android.view.View","content-desc":"Votre bilan est calculé sur tous les lots enregistrés, quels que soient la recherche et le filtre.","interactions":["FOCUSABLE"],"bounds":"[63,477][1017,582]","center":"[540,529]"},{"class":"android.view.View","content-desc":"0\nlot(s) encore en stock\n0 à date sous 3 jours\n0 avec une date dépassée","interactions":["FOCUSABLE"],"bounds":"[63,656][1017,1155]","center":"[540,905]"},{"class":"android.view.View","content-desc":"Où sont vos aliments ?","interactions":["FOCUSABLE"],"bounds":"[63,1228][1017,1302]","center":"[540,1265]"},{"class":"android.widget.ProgressBar","content-desc":"0, Réfrigérateur : 0 lot(s)","interactions":["FOCUSABLE"],"bounds":"[63,1333][1017,1480]","center":"[540,1406]"},{"class":"android.widget.ProgressBar","content-desc":"0, Congélateur : 0 lot(s)","interactions":["FOCUSABLE"],"bounds":"[63,1480][1017,1627]","center":"[540,1553]"},{"class":"android.widget.ProgressBar","content-desc":"0, Placard : 0 lot(s)","interactions":["FOCUSABLE"],"bounds":"[63,1627][1017,1774]","center":"[540,1700]"},{"class":"android.view.View","content-desc":"Ce qui a été utilisé","interactions":["FOCUSABLE"],"bounds":"[63,1837][1017,1911]","center":"[540,1874]"},{"class":"android.view.View","content-desc":"1 consommé(s) • 0 jeté(s)","interactions":["FOCUSABLE"],"bounds":"[63,1942][1017,1995]","center":"[540,1968]"},{"class":"android.view.View","content-desc":"100 % des lots terminés ont été consommés.","interactions":["FOCUSABLE"],"bounds":"[63,2026][1017,2064]","center":"[540,2045]"}]},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:13:15.469869+00:00 ["adb", "shell", "pidof", "fr.nicolasbellina.reserve"]
+2394
+
+exit=0
+
+2026-11-05T14:13:15.584245+00:00 ["adb", "shell", "am", "force-stop", "fr.nicolasbellina.reserve"]
+
+exit=0
+
+2026-11-05T14:13:16.560492+00:00 ["adb", "shell", "am", "start", "-W", "-n", "fr.nicolasbellina.reserve/.MainActivity"]
+Starting: Intent { cmp=fr.nicolasbellina.reserve/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: fr.nicolasbellina.reserve/.MainActivity
+TotalTime: 851
+WaitTime: 851
+Complete
+
+exit=0
+
+2026-11-05T14:13:16.656580+00:00 ["adb", "shell", "pidof", "fr.nicolasbellina.reserve"]
+3377
+
+exit=0
+
+2026-11-05T14:13:18.172345+00:00 ["tap", "desc=/^Bilan\\n/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Bilan\nOnglet 2 sur 2",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[540,2064][1080,2274]",
+    "center": "[810,2169]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:13:20.140331+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:13","content-desc":"3:13 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.view.View","content-desc":"Réserve","interactions":["FOCUSABLE"],"bounds":"[42,160][331,259]","center":"[186,209]"},{"class":"android.widget.Button","content-desc":"Sauvegardes","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[807,147][933,273]","center":"[870,210]"},{"class":"android.widget.Button","content-desc":"Actualiser","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[933,147][1059,273]","center":"[996,210]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2064]","center":"[540,1173]","children":[{"class":"android.view.View","content-desc":"Chaque lot compte.","interactions":["FOCUSABLE"],"bounds":"[63,346][1017,451]","center":"[540,398]"},{"class":"android.view.View","content-desc":"Votre bilan est calculé sur tous les lots enregistrés, quels que soient la recherche et le filtre.","interactions":["FOCUSABLE"],"bounds":"[63,477][1017,582]","center":"[540,529]"},{"class":"android.view.View","content-desc":"0\nlot(s) encore en stock\n0 à date sous 3 jours\n0 avec une date dépassée","interactions":["FOCUSABLE"],"bounds":"[63,656][1017,1155]","center":"[540,905]"},{"class":"android.view.View","content-desc":"Où sont vos aliments ?","interactions":["FOCUSABLE"],"bounds":"[63,1228][1017,1302]","center":"[540,1265]"},{"class":"android.widget.ProgressBar","content-desc":"0, Réfrigérateur : 0 lot(s)","interactions":["FOCUSABLE"],"bounds":"[63,1333][1017,1480]","center":"[540,1406]"},{"class":"android.widget.ProgressBar","content-desc":"0, Congélateur : 0 lot(s)","interactions":["FOCUSABLE"],"bounds":"[63,1480][1017,1627]","center":"[540,1553]"},{"class":"android.widget.ProgressBar","content-desc":"0, Placard : 0 lot(s)","interactions":["FOCUSABLE"],"bounds":"[63,1627][1017,1774]","center":"[540,1700]"},{"class":"android.view.View","content-desc":"Ce qui a été utilisé","interactions":["FOCUSABLE"],"bounds":"[63,1837][1017,1911]","center":"[540,1874]"},{"class":"android.view.View","content-desc":"1 consommé(s) • 0 jeté(s)","interactions":["FOCUSABLE"],"bounds":"[63,1942][1017,1995]","center":"[540,1968]"},{"class":"android.view.View","content-desc":"100 % des lots terminés ont été consommés.","interactions":["FOCUSABLE"],"bounds":"[63,2026][1017,2064]","center":"[540,2045]"}]},{"class":"android.widget.Button","content-desc":"Inventaire\nOnglet 1 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[0,2064][540,2274]","center":"[270,2169]"},{"class":"android.widget.Button","content-desc":"Bilan\nOnglet 2 sur 2","interactions":["CLICKABLE","FOCUSABLE"],"state":["SELECTED"],"bounds":"[540,2064][1080,2274]","center":"[810,2169]"}]}]}]
+
+exit=0
+
+2026-11-05T14:13:21.061081+00:00 ["capture", "08-bilan-apres-redemarrage.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/08-bilan-apres-redemarrage.png
+
+exit=0
+
+2026-11-05T14:13:55.708526+00:00 ["tap", "desc=/^Inventaire\\n/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Inventaire\nOnglet 1 sur 2",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[0,2064][540,2274]",
+    "center": "[270,2169]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:13:57.085407+00:00 ["tap", "desc=/^Voir tous les lots$/"]
+Tapped element:
+[
+  {
+    "class": "android.widget.Button",
+    "content-desc": "Voir tous les lots",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[369,1580][711,1706]",
+    "center": "[540,1643]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:13:58.268235+00:00 ["tap", "desc=/^Yaourts nature bio\\n/"]
+Tapped element:
+[
+  {
+    "class": "android.view.View",
+    "content-desc": "Yaourts nature bio\n3 pièce(s) • Réfrigérateur\nConsommé",
+    "interactions": [
+      "CLICKABLE",
+      "FOCUSABLE"
+    ],
+    "bounds": "[53,1128][1028,1422]",
+    "center": "[540,1275]"
+  }
+]
+
+exit=0
+
+2026-11-05T14:14:00.134733+00:00 ["layout"]
+[{"window-title":"Navigation bar","type":"SYSTEM","layer":2,"bounds":"[0,2274][1080,2400]","content":[{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/back","content-desc":"Back","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[164,2279][352,2395]","center":"[258,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/home","content-desc":"Home","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[434,2279][644,2395]","center":"[539,2337]"},{"class":"android.widget.ImageView","resource-id":"com.android.launcher3:id/recent_apps","content-desc":"Recents","interactions":["CLICKABLE","LONG_CLICKABLE"],"bounds":"[726,2279][914,2395]","center":"[820,2337]"}]},{"window-title":"","type":"SYSTEM","layer":1,"bounds":"[0,0][1080,74]","content":[{"class":"android.widget.TextView","resource-id":"com.android.systemui:id/clock","text":"3:13","content-desc":"3:13 PM","bounds":"[47,47][152,74]","center":"[99,60]"},{"class":"android.widget.ImageView","content-desc":"Android System notification: ","bounds":"[152,1][210,74]","center":"[181,37]"},{"class":"android.widget.ImageView","content-desc":"Airplane mode.","bounds":"[922,39][969,74]","center":"[945,56]"},{"class":"android.widget.LinearLayout","resource-id":"com.android.systemui:id/battery","content-desc":"Battery charging, 100 percent.","bounds":"[985,51][1005,74]","center":"[995,62]"}]},{"window-title":"Réserve","type":"APPLICATION","active":true,"focused":true,"layer":0,"bounds":"[0,0][1080,2400]","content":[{"class":"android.widget.FrameLayout","interactions":["FOCUSABLE"],"bounds":"[0,0][1080,2400]","center":"[540,1200]","children":[{"class":"android.widget.Button","content-desc":"Retour","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[11,147][137,273]","center":"[74,210]"},{"class":"android.view.View","content-desc":"Fiche aliment","interactions":["FOCUSABLE"],"bounds":"[189,173][533,246]","center":"[361,209]"},{"class":"android.widget.ScrollView","interactions":["SCROLLABLE","FOCUSABLE"],"bounds":"[0,283][1080,2274]","center":"[540,1278]","children":[{"class":"android.view.View","content-desc":"Yaourts nature bio","interactions":["FOCUSABLE"],"bounds":"[63,677][1017,782]","center":"[540,729]"},{"class":"android.view.View","content-desc":"Consommé","interactions":["FOCUSABLE"],"bounds":"[63,813][1017,866]","center":"[540,839]"},{"class":"android.view.View","content-desc":"Quantité\n3 pièce(s)","interactions":["FOCUSABLE"],"bounds":"[63,929][1017,1149]","center":"[540,1039]"},{"class":"android.view.View","content-desc":"Emplacement\nRéfrigérateur","interactions":["FOCUSABLE"],"bounds":"[63,1149][1017,1370]","center":"[540,1259]"},{"class":"android.view.View","content-desc":"Date sur l’emballage\n07/11/2026","interactions":["FOCUSABLE"],"bounds":"[63,1370][1017,1590]","center":"[540,1480]"},{"class":"android.view.View","content-desc":"Statut\nConsommé","interactions":["FOCUSABLE"],"bounds":"[63,1590][1017,1811]","center":"[540,1700]"},{"class":"android.widget.Button","content-desc":"Modifier","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,1911][1017,2037]","center":"[540,1974]"},{"class":"android.widget.Button","content-desc":"Supprimer","interactions":["CLICKABLE","FOCUSABLE"],"bounds":"[63,2063][1017,2189]","center":"[540,2126]"},{"class":"android.view.View","content-desc":"Ajouté le 05/11/2026\nModifié le 05/11/2026","interactions":["FOCUSABLE"],"bounds":"[63,2252][1017,2274]","center":"[540,2263]"}]}]}]}]
+
+exit=0
+
+2026-11-05T14:14:00.987844+00:00 ["capture", "09-fiche-conservee.png"]
+Screenshot written to /Users/nicolasbellina/Documents/ESGI M2/Flutter/projet_final/docs/android/captures/09-fiche-conservee.png
+
+exit=0
+
+2026-11-05T14:14:01.087031+00:00 ["adb", "shell", "settings", "get", "global", "airplane_mode_on"]
+1
+
+exit=0
+
+2026-11-05T14:14:01.148136+00:00 ["adb", "shell", "settings", "get", "global", "wifi_on"]
+0
+
+exit=0
+
+2026-11-05T14:14:01.207497+00:00 ["adb", "shell", "settings", "get", "global", "mobile_data"]
+0
+
+exit=0
+
+2026-11-05T14:16:51.290161+00:00 ["adb", "logcat", "-b", "crash", "-d"]
+
+exit=0

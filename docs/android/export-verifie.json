@@ -1,0 +1,19 @@
+{
+  "application": "reserve",
+  "version": 1,
+  "exported_at": "2026-11-05T14:05:37.808624Z",
+  "lots": [
+    {
+      "id": "5e8277f15296bc4d2627c3cd90066a18",
+      "name": "Yaourts nature",
+      "quantity": 4,
+      "unit": "pièce(s)",
+      "place": "fridge",
+      "status": "available",
+      "expiry": "2026-11-07",
+      "created_at": "2026-11-05T14:05:19.569573Z",
+      "updated_at": "2026-11-05T14:05:19.569573Z",
+      "notes": ""
+    }
+  ]
+}

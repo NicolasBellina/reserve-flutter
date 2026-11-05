@@ -12,6 +12,7 @@
 | Alignement ZIP et ELF | ZIP valide et 9 bibliothèques alignées sur 16 Ko | [Contrôle](apk-alignement.txt) |
 | Build Web autonome | Réussi | [Journal](build-web.txt) |
 | Exécution Web sur localhost | Réussie, viewport 390 × 844 | [Captures](captures/) |
+| APK release sur Android 16 ARM64 | Installation, CRUD, JSON natif et persistance réussis hors ligne | [Compte rendu Android](android/RECETTE_EXECUTEE.md) |
 
 Les journaux de tests contiennent volontairement des erreurs simulées `StateError` : ce sont les scénarios de récupération, suivis d'assertions réussies. Le build Web émet un avertissement sur la police Cupertino non embarquée ; l'interface utilise les icônes Material, visibles dans les captures. Ce n'est pas une erreur d'analyse.
 
@@ -38,11 +39,11 @@ Les journaux de tests contiennent volontairement des erreurs simulées `StateErr
 
 Ces données ont été saisies dans le navigateur de vérification. Elles ne font pas partie de la base initiale distribuée. Les images du dossier captures sont des captures de cette application exécutée, sans montage ni remplacement des valeurs.
 
-## À réaliser sur Android avant soutenance
+## Vérification Android réalisée
 
-Aucun appareil ou émulateur Android n'était disponible pour la recette. La compilation, l'activité Kotlin et la signature sont vérifiées ; **l'installation effective, le fonctionnement du sélecteur natif et la persistance après arrêt sur téléphone ne sont pas revendiqués comme testés**. La persistance SQLite sur disque est couverte automatiquement et la persistance Web a été constatée manuellement.
+L'émulateur a été installé puis la recette effectuée sur l'APK release déjà signé, sans reconstruire une version de test. Les essais couvrent la saisie validée, l'édition, la recherche et les filtres, la suppression confirmée et annulée, l'export et l'import par le sélecteur Android, la restauration et l'absence de doublons, les conflits de dates, le refus d'un JSON invalide et d'un fichier de 2 Mo + 1 octet, les annulations et la persistance après arrêt forcé. Le mode avion était actif, avec Wi-Fi et données mobiles désactivés.
 
-Suivre [RECETTE.md](RECETTE.md) sur téléphone ou émulateur, en mode avion. Les actions de suppression ont été vérifiées dans les tests de widgets avec confirmation et annulation. La copie JSON, l'import, les dates, la recherche et le bilan ne dépendent pas du sélecteur Android.
+Le [compte rendu Android](android/RECETTE_EXECUTEE.md) donne les valeurs observées, l'environnement et les captures. La [recette](RECETTE.md) permet de reproduire le parcours. Aucun téléphone physique ni poste Windows n'a été utilisé : le test d'exécution porte sur un émulateur Android 16 ARM64 sur Mac. L'APK contient aussi x86_64 pour les émulateurs Windows compatibles.
 
 ## Difficultés résolues
 

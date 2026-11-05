@@ -1,100 +1,79 @@
-# Réserve — projet final Flutter
+# Réserve — garde-manger hors ligne
 
-**Moins oublier. Mieux cuisiner.** Réserve est un garde-manger personnel pour les étudiants et petits foyers qui oublient des aliments au fond du réfrigérateur. L'utilisateur ajoute un lot avec sa quantité, son emplacement et la date de l'emballage, retrouve les échéances proches puis indique ce qui a été consommé ou jeté. Aucun compte ni connexion n'est nécessaire.
+**Moins oublier. Mieux cuisiner.** Réserve aide les étudiants et petits foyers à retrouver leurs aliments et à utiliser en priorité les lots dont la date approche. On ajoute une quantité, un emplacement et la date de l'emballage, puis on suit ce qui a été consommé ou jeté. L'application démarre vide, sans compte ni connexion.
 
-Ce projet est distinct de Piste : modèle de lots alimentaires, gestion de dates, emplacements de conservation, bilan de consommation et sauvegardes structurées. La base est **vide au premier lancement**. Les aliments visibles dans les captures ont été saisis pendant la recette ; ils ne sont pas injectés dans l'application.
+## Installer pour corriger le projet
 
-## Essayer l'application
+**[Télécharger l'APK Android signé — version 1.0.0](https://github.com/NicolasBellina/reserve-flutter/releases/download/v1.0.0/reserve-1.0.0.apk)** · [Page de la livraison](https://github.com/NicolasBellina/reserve-flutter/releases/tag/v1.0.0)
 
-L'APK prêt à installer est **[livraison/reserve-1.0.0.apk](livraison/reserve-1.0.0.apk)**. Il est compilé en release et signé avec la clé privée propre à Réserve. Android 7.0 / API 24 minimum. Voir la [notice d'installation et de signature](docs/LIVRAISON.md).
+L'APK fonctionne sur Android 7.0 / API 24 ou supérieur. Il contient ARM 32 bits, ARM64 et x86_64. **Sur Windows, il se lance dans un émulateur Android** : démarrer un téléphone virtuel dans Android Studio, puis glisser l'APK sur son écran. Flutter et le code source ne sont pas nécessaires pour cette installation. La [notice Windows](docs/INSTALLATION_WINDOWS.md) détaille la procédure et le scénario de correction.
 
-```sh
-cd projet_final
-flutter pub get
-flutter run -d <identifiant-android>
-```
+Le même APK a été installé et testé sur un émulateur Android 16 ARM64, avec mode avion activé, Wi-Fi et données mobiles désactivés. La signature et l'alignement des bibliothèques ont été vérifiés. Les essais ont été réalisés sur Mac ; l'installation sur Windows n'est pas présentée comme un test déjà exécuté.
 
-Projet vérifié avec **Flutter 3.47.9 stable / Dart 3.13.7**, Java 21 fourni par Android Studio, Android SDK 36 et AGP 9.1.0 avec Kotlin intégré. Le minimum de ce projet est Flutter 3.47 / Dart 3.12 à cause de la configuration Android et du pilote SQLite Web. `pubspec.lock` fixe les versions utilisées.
+## Ce que l'application permet
 
-Sur ce Mac, les scripts retrouvent aussi le SDK temporaire déjà installé :
+- Créer, consulter, modifier et supprimer un lot après confirmation ; refuser les champs obligatoires vides et les quantités invalides.
+- Chercher par aliment, note ou emplacement, avec recherche insensible aux accents courants ; combiner cette recherche aux filtres de statut ou d'échéance.
+- Ranger au réfrigérateur, au congélateur ou au placard ; distinguer En stock, Consommé et Jeté.
+- Consulter un bilan global : stock par lieu, dates proches/dépassées, lots consommés/jetés et part consommée parmi les lots terminés.
+- Conserver ses données après arrêt de l'application et transférer son inventaire avec une sauvegarde JSON.
 
-```sh
-./tool/flutterw analyze
-./tool/flutterw test --reporter expanded
-./tool/build_apk
-./tool/run_web
-```
+L'interface Material 3 est en français, défilante et adaptée au clavier. Chargement, inventaire vide, absence de résultats et erreurs ont des états explicites. En cas d'échec d'enregistrement, le formulaire conserve la saisie. Les lots des captures ont été créés pendant la recette et ne sont pas inclus dans la base distribuée.
 
-Le dernier script ouvre un serveur local à [http://127.0.0.1:8090](http://127.0.0.1:8090), à visiter dans un navigateur. Le premier build peut télécharger des dépendances ; l'application compilée reste utilisable sans réseau. Android est la cible du rendu. La version Web est une aide à la démonstration, avec SQLite WebAssembly et IndexedDB ; sa base est distincte de celle du téléphone. Garder la même origine pour la retrouver. iOS n'est pas inclus.
+## Architecture et décisions techniques
 
-## Fonctionnalités
+Le flux est **page → contrôleur → repository → SQLite → mise à jour de l'état → widgets**. Aucune page n'exécute de SQL.
 
-- Inventaire, détail, création/édition et bilan, avec interface Material 3 en français.
-- CRUD complet ; suppression confirmée ; retour de succès ; conservation de la saisie si l'enregistrement échoue.
-- Nom et date obligatoires ; quantité entière entre 1 et 999 999 ; limites des textes ; lieux Réfrigérateur / Congélateur / Placard.
-- Statuts En stock, Consommé et Jeté. Action directe « Marquer comme consommé » dans la fiche ; les autres transitions passent par Modifier.
-- Recherche insensible à la casse et aux accents courants, sur nom, notes et emplacement ; filtres combinables par statut ou échéance.
-- Tri par date ; repérage des dates dépassées et des dates entre aujourd'hui et trois jours inclus. Les dates sont comparées par jour civil, sans erreur lors d'un changement d'heure.
-- Bilan sur tous les lots : stock par emplacement, échéances, consommés, jetés et pourcentage consommé parmi les lots terminés. Aucune addition de quantités ayant des unités différentes.
-- États loading / success / empty / error visibles, bouton Réessayer, traitement des erreurs asynchrones et verrouillage des doubles opérations.
-- SQLite local ; identifiant aléatoire stable de 128 bits ; création et modification conservées. Actualisation des échéances au retour dans l'application et chaque minute.
-
-## Fonctionnalité technique distinctive : sauvegarde JSON
-
-Sur Android, les boutons **Enregistrer le fichier JSON** et **Choisir un fichier JSON** ouvrent le sélecteur système via un canal Flutter/Kotlin. Ils utilisent `ACTION_CREATE_DOCUMENT` / `ACTION_OPEN_DOCUMENT`, sans permission générale de stockage. Les accès disque sont effectués hors du thread UI. Les annulations et erreurs sont gérées. Un choix local comme Téléchargements fonctionne hors connexion ; un fournisseur cloud affiché par Android peut nécessiter Internet.
-
-Sur toutes les cibles fournies, copier le JSON et coller une sauvegarde est également possible. Le format contient `application: reserve`, `version: 1`, une date d'export et les lots typés. Le lecteur refuse les fichiers malformés, les identifiants dupliqués, les dates impossibles, les statuts inconnus et les quantités invalides. Limites : 2 Mo UTF-8 et 5 000 lots par fichier.
-
-Avant confirmation, l'utilisateur voit le nombre d'ajouts et de mises à jour. L'import **fusionne** dans une transaction SQLite : identifiant absent → ajout ; identifiant présent → seule une modification strictement plus récente remplace le lot. Une seconde importation du même fichier ne duplique rien. En cas d'erreur SQL, toute la transaction est annulée. Ce n'est pas un remplacement complet de base : un lot supprimé peut être réintroduit par une ancienne sauvegarde. Les horloges des appareils doivent être correctes. Le JSON n'est pas chiffré et aucune sauvegarde automatique distante n'est effectuée.
-
-Les tests ciblent l'aller-retour JSON, les refus, la fusion, les conflits et le rollback réel SQLite. La [recette reproductible](docs/RECETTE.md) couvre aussi les fichiers Android.
-
-## Architecture et choix techniques
+| Choix | Pourquoi ce choix dans Réserve |
+|---|---|
+| **Flutter / Dart avec null safety, Material 3** | Une interface mobile cohérente avec formulaires, navigation et composants accessibles. Les enums et le modèle immuable rendent les statuts et emplacements explicites. Les traductions viennent de `flutter_localizations`, sans police ni ressource distante au lancement. |
+| **SQLite avec `sqflite` et `path`** | Les lots sont structurés et doivent rester disponibles hors ligne. SQLite conserve identifiants et dates, permet les requêtes paramétrées et garantit la transaction d'import. `path` construit le chemin du fichier sans le coder pour un système précis. Le schéma initial est versionné en v1. |
+| **`ChangeNotifier` et `ListenableBuilder`** | Un seul inventaire partagé entre quelques écrans suffit à ce mécanisme Flutter. Le contrôleur centralise chargement, filtres, calculs et erreurs. Il est créé une fois et libéré avec le timer et le repository ; les champs de texte sont libérés par leurs pages. |
+| **Repository injectable** | L'interface et le contrôleur ne dépendent pas du pilote. Les tests de widgets simulent les erreurs ; les tests SQLite exécutent les vraies transactions sur disque. Cette séparation reste courte et suit les responsabilités du sujet. |
+| **JSON versionné et canal natif Kotlin** | L'export/import sert au transfert et à la sauvegarde sans serveur. Les deux actions fichiers passent par le sélecteur Android, sans permission générale de stockage. Un petit canal natif couvre ce besoin sans ajouter de package de fichiers. |
+| **Pilotes SQLite complémentaires** | `sqflite_common_ffi` sert aux tests sur disque et `sqflite_common_ffi_web` à l'aperçu navigateur. Le repository reste commun. Le lockfile fixe les dépendances, dont la version récente de `sqlite3` utilisée par ces pilotes. |
 
 ```text
-lib/
-  main.dart                       Thème, injection et cycle de vie
-  models/food_lot.dart             Lot immuable, enums, dates et validation
-  data/lot_repository.dart         Contrat, schéma et opérations SQLite
-  data/repository_native.dart      Pilote sqflite Android
-  data/repository_web.dart         Pilote SQLite WebAssembly
-  state/pantry_controller.dart     ChangeNotifier, états, filtres, calculs
-  services/backup_codec.dart       Format JSON versionné et validation
-  services/document_service.dart   Canal vers le sélecteur Android
-  ui/                             Accueil, fiche, formulaire, bilan, sauvegardes
-android/.../MainActivity.kt        Lecture/écriture des documents choisis
+lib/models/      Lot typé, ID stable de 128 bits, création et modification
+lib/data/        Contrat, schéma et opérations SQLite
+lib/state/       ChangeNotifier, états, recherche, filtres et bilan
+lib/services/    Validation JSON et canal de documents
+lib/ui/          Inventaire, fiche, formulaire, bilan et sauvegardes
+android/         Sélecteur de fichiers et configuration de signature
 ```
 
-Flux : **page → contrôleur → repository → SQLite → état mémoire → notifyListeners → pages**. Les pages ne contiennent aucune requête SQL. La sauvegarde JSON est indépendante de l'interface et du stockage ; le canal natif n'écrit jamais dans la base.
+### Une sauvegarde qui se fusionne sans doublon
 
-1. **Pourquoi SQLite ?** Données structurées, identifiants et dates persistants, transactions pour l'import, disponibilité hors ligne. `sqflite` utilise le pilote natif et `path` construit le chemin. Le schéma initial est versionné en v1 avec index d'échéance ; une évolution nécessitera un `onUpgrade` transactionnel. Aucune migration fictive n'est revendiquée.
-2. **Pourquoi ChangeNotifier ?** L'état est limité à un inventaire personnel ; l'outil Flutter suffit, sans dépendance d'état supplémentaire. Le contrôleur est créé une seule fois dans la racine et libéré à sa destruction, ainsi que le timer, l'observateur de cycle de vie et le repository. Les pages utilisent `ListenableBuilder` et libèrent leurs champs de saisie.
-3. **Pourquoi ces dépendances ?** `flutter_localizations` fournit les composants français ; `sqflite_common_ffi_web` permet la démonstration Web en réutilisant le repository ; `sqflite_common_ffi` exécute les vraies requêtes sur disque dans les tests. `sqlite3` est explicitement contraint à une version récente compatible pour éviter une ancienne archive native dont l'empreinte téléchargée ne correspondait plus à celle attendue. La signature n'a pas été contournée. Le canal natif évite un package supplémentaire pour seulement deux actions fichiers. Les paquets transitifs sont consignés dans le lockfile.
+L'import valide **tout le fichier avant d'écrire** : format Réserve v1, identifiants uniques, dates réelles, statuts et quantités valides. Un aperçu annonce les ajouts et modifications. À identifiant égal, seule la version strictement plus récente remplace le lot. La fusion est transactionnelle : une erreur annule l'ensemble. Réimporter le même fichier ne crée aucun doublon. Les limites sont de 2 Mo UTF-8 et 5 000 lots.
 
-Compromis : inventaire intégralement chargé en mémoire, adapté à un usage personnel mais pas à une base industrielle. Pas de synchronisation automatique, de rappels système ni de scanner de codes-barres. Le bilan compte des lots, pas des kilos évités. Les dates sont des repères saisis par l'utilisateur et ne constituent pas un contrôle de sécurité alimentaire.
+### Compromis assumés
 
-## Qualité et preuves
+La liste est chargée en mémoire, ce qui convient à un garde-manger personnel. Le bilan compte des **lots**, pas un poids total mélangeant pièces et grammes. Les sauvegardes sont en clair, manuelles et sans synchronisation automatique ; une ancienne sauvegarde peut réintroduire un lot supprimé. La résolution des conflits suppose des horloges correctes. Les dates restent des repères saisis, pas une évaluation de sécurité alimentaire. La base Web est distincte de celle du téléphone ; iOS et une application Windows native ne sont pas fournis.
 
-**22 tests réussis : 16 tests unitaires / SQLite et 6 tests de widgets.** `flutter analyze` ne signale aucun problème. Les scénarios incluent persistance après réouverture, import atomique, filtre et recherche, loading / empty / error, formulaire validé, CRUD d'interface, refus JSON, échec d'écriture récupérable et petit écran avec texte agrandi.
+## Vérifications et démonstration
 
-- [Résultats et limites de vérification](docs/VERIFICATION.md)
-- [Sortie flutter analyze](docs/flutter-analyze.txt) et [sortie flutter test](docs/flutter-test.txt)
-- [Recette manuelle sur Android et scénario d'échec](docs/RECETTE.md)
-- [Trame de présentation sur téléphone](docs/PRESENTATION.md)
-- [Signature de l'APK](docs/apk-signature.txt) et [alignement des bibliothèques](docs/apk-alignement.txt)
+**Analyse sans problème et 22 tests réussis : 16 unitaires/SQLite et 6 widgets.** Ils couvrent notamment le CRUD, les validations, la recherche, les erreurs récupérables, la persistance après réouverture et l'annulation d'un import en échec.
 
-Captures authentiques de la version Web exécutée dans un viewport de 390 × 844, prises le 5 novembre 2026. Ce ne sont pas des captures d'émulateur Android. Le test sur appareil Android, notamment le sélecteur natif, reste à réaliser avant soutenance ; il n'est pas présenté comme réussi.
+La recette sur l'APK release Android a aussi vérifié les fichiers natifs, les annulations, la restauration après suppression, les conflits, les refus de fichiers invalides ou > 2 Mo et la conservation des données après arrêt forcé.
 
-| Premier lancement | Inventaire saisi | Fiche |
-|---|---|---|
-| ![Inventaire vide](docs/captures/01-inventaire-vide.png) | ![Inventaire](docs/captures/02-inventaire.png) | ![Fiche](docs/captures/03-fiche.png) |
+- [Résultats et journaux](docs/VERIFICATION.md) · [Compte rendu Android](docs/android/RECETTE_EXECUTEE.md)
+- [Recette à reproduire](docs/RECETTE.md) · [Trame de présentation sur téléphone](docs/PRESENTATION.md)
 
-## Sécurité et livraison
+<img src="docs/android/captures/02-inventaire.png" alt="Inventaire exécuté sur Android" width="250"> <img src="docs/android/captures/05-restauration-apercu.png" alt="Aperçu d'une restauration depuis le sélecteur Android" width="250">
 
-Aucun compte, API, secret distant ou permission de caméra, réseau ou localisation n'est nécessaire en release. La permission interne de réception Android est ajoutée par AndroidX. Les fichiers choisis passent par le sélecteur système. Les valeurs SQL sont paramétrées. Les notes et noms sont locaux ; l'export les contient en clair.
+## Lancer les sources
 
-La clé de diffusion `.private/reserve-release.p12` et ses mots de passe dans `android/key.properties` sont ignorés par Git et doivent être sauvegardés séparément. Le dossier `build/`, les SDK, les bases et les caches sont aussi exclus. L'APK est livré localement dans `livraison/` et ignoré pour garder le dépôt source léger ; le joindre au rendu ou à une release du dépôt.
+Environnement vérifié : Flutter **3.47.9 stable**, Dart **3.13.7**, Java **21**, Android SDK **36**, AGP **9.1.0** avec Kotlin intégré. Utiliser Flutter 3.47 ou supérieur.
 
-Le dépôt Git local est indépendant de celui de Piste. Il contient des commits correspondant aux étapes réellement effectuées. Aucun dépôt distant n'a été publié.
+```sh
+git clone https://github.com/NicolasBellina/reserve-flutter.git
+cd reserve-flutter
+flutter pub get
+flutter run -d <identifiant-android>
+flutter analyze
+flutter test --reporter expanded
+```
 
-Références : [ChangeNotifier et état Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/simple), [sqflite](https://pub.dev/packages/sqflite), [Storage Access Framework Android](https://developer.android.com/training/data-storage/shared/documents-files), [Kotlin intégré dans Flutter](https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-app-developers).
+Sur le Mac de développement, `./tool/flutterw` retrouve aussi le SDK temporaire et `./tool/build_apk` reconstruit la livraison. `./tool/run_web` lance un aperçu local. La première compilation nécessite le téléchargement des dépendances ; l'application installée fonctionne hors connexion.
+
+Les clés, mots de passe de signature, bases, SDK et dossiers générés sont exclus de Git. L'APK est joint à la release. Pour reconstruire une version signée et sauvegarder la clé locale, voir [LIVRAISON.md](docs/LIVRAISON.md).

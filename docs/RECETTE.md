@@ -1,6 +1,6 @@
 # Recette manuelle — Réserve
 
-À exécuter sur téléphone ou émulateur Android avant la soutenance. **Cette liste est une procédure attendue, pas une attestation d'exécution Android.** Les contrôles réellement effectués sont consignés dans VERIFICATION.md.
+Procédure à reproduire sur téléphone ou émulateur Android. Les contrôles réellement effectués sur l'APK release sont consignés dans [le compte rendu Android](android/RECETTE_EXECUTEE.md) ; cette liste décrit les résultats attendus pour une nouvelle exécution. Pour préparer l'émulateur du correcteur sous Windows, voir [la notice Windows](INSTALLATION_WINDOWS.md).
 
 ## Préparation
 

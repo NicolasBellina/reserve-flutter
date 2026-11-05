@@ -10,7 +10,7 @@ Transférer l'APK sur le téléphone, l'ouvrir, autoriser ponctuellement l'insta
 adb install -r livraison/reserve-1.0.0.apk
 ```
 
-L'installation effective et le sélecteur de fichiers natif restent à vérifier sur appareil. Ne pas présenter la compilation comme une preuve d'exécution sur téléphone. Un APK ne s'installe pas sur iPhone.
+L'APK livré a été installé et exécuté sur un émulateur Android 16 ARM64. Le sélecteur natif, les fichiers, les erreurs et la persistance après arrêt forcé ont été vérifiés hors connexion ; voir [la recette exécutée](android/RECETTE_EXECUTEE.md). Pour le correcteur sur Windows, suivre [la notice dédiée](INSTALLATION_WINDOWS.md). Un APK ne s'installe pas sur iPhone.
 
 ## Reconstruire sur ce Mac
 
@@ -45,4 +45,4 @@ Ces valeurs sont des emplacements à compléter, pas des identifiants fournis. U
 
 ## Rendu
 
-Transmettre le dépôt source, l'APK en pièce jointe et les documents/captures de docs. Les caches, le SDK et build ne font pas partie du rendu. L'APK est volontairement ignoré par Git et présent dans le dossier local ; l'ajouter séparément à une release si un dépôt distant est créé. Aucun dépôt distant n'a été créé ou publié dans cette tâche.
+Transmettre le dépôt source, l'APK en pièce jointe et les documents/captures de docs. Les caches, le SDK et build ne font pas partie du rendu. L'APK est volontairement ignoré par Git et distribué comme pièce jointe de la [release v1.0.0 du dépôt public](https://github.com/NicolasBellina/reserve-flutter/releases/tag/v1.0.0). Le même fichier reste disponible dans le dossier livraison local. Les clés et les outils du Mac ne font pas partie de cette publication.
