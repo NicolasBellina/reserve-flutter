@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+./tool/flutterw build web --no-web-resources-cdn
+printf '%s\n' 'Réserve : http://127.0.0.1:8090 (Ctrl+C pour arrêter)'
+exec python3 -m http.server 8090 --bind 127.0.0.1 --directory build/web

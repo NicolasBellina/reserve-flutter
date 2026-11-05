@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+export FLUTTER_SUPPRESS_ANALYTICS=true
+export DART_SUPPRESS_ANALYTICS=true
+export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-/tmp/reserve-config}"
+if command -v flutter >/dev/null 2>&1; then
+  exec flutter "$@"
+fi
+if [ -x /tmp/flutter-tp-sdk/bin/flutter ]; then
+  export PUB_CACHE="${PUB_CACHE:-/tmp/flutter-tp-pub-cache}"
+  exec /tmp/flutter-tp-sdk/bin/flutter "$@"
+fi
+printf '%s\n' 'Installez Flutter stable et ajoutez son dossier bin au PATH.' >&2
+exit 127
